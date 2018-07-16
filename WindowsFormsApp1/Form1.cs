@@ -225,8 +225,66 @@ namespace WindowsFormsApp1
 
         private void btnCzysc_Click(object sender, EventArgs e)
         {
-            Clear(this.Controls);
-            //textBox1.Text = "";
+            tb10GruScProf.Text = String.Empty;
+            tb10OdlMiWierzKarb.Text = String.Empty;
+            tb10Prml.Text = String.Empty;
+            tb10RodzPek.Text = String.Empty;
+            tb10Ud.Text = String.Empty;
+
+            tb9GruScProf.Text = String.Empty;
+            tb9OdlMiWierzKarb.Text = String.Empty;
+            tb9Prml.Text = String.Empty;
+            tb9RodzPek.Text = String.Empty;
+            tb9Ud.Text = String.Empty;
+
+            tb8GruScProf.Text = String.Empty;
+            tb8OdlMiWierzKarb.Text = String.Empty;
+            tb8Prml.Text = String.Empty;
+            tb8RodzPek.Text = String.Empty;
+            tb8Ud.Text = String.Empty;
+
+            tb7GruScProf.Text = String.Empty;
+            tb7OdlMiWierzKarb.Text = String.Empty;
+            tb7Prml.Text = String.Empty;
+            tb7RodzPek.Text = String.Empty;
+            tb7Ud.Text = String.Empty;
+
+            tb6GruScProf.Text = String.Empty;
+            tb6OdlMiWierzKarb.Text = String.Empty;
+            tb6Prml.Text = String.Empty;
+            tb6RodzPek.Text = String.Empty;
+            tb6Ud.Text = String.Empty;
+
+            tb5GruScProf.Text = String.Empty;
+            tb5OdlMiWierzKarb.Text = String.Empty;
+            tb5Prml.Text = String.Empty;
+            tb5RodzPek.Text = String.Empty;
+            tb5Ud.Text = String.Empty;
+
+            tb4GruScProf.Text = String.Empty;
+            tb4OdlMiWierzKarb.Text = String.Empty;
+            tb4Prml.Text = String.Empty;
+            tb4RodzPek.Text = String.Empty;
+            tb4Ud.Text = String.Empty;
+
+
+            tb3GruScProf.Text = String.Empty;
+            tb3OdlMiWierzKarb.Text = String.Empty;
+            tb3Prml.Text = String.Empty;
+            tb3RodzPek.Text = String.Empty;
+            tb3Ud.Text = String.Empty;
+
+            tb2GruScProf.Text = String.Empty;
+            tb2OdlMiWierzKarb.Text = String.Empty;
+            tb2Prml.Text = String.Empty;
+            tb2RodzPek.Text = String.Empty;
+            tb2Ud.Text = String.Empty;
+
+            tb1GruScProf.Text = String.Empty;
+            tb1OdlMiWierzKarb.Text = String.Empty;
+            tb1Prml.Text = String.Empty;
+            tb1RodzPek.Text = String.Empty;
+            tb1Ud.Text = String.Empty;
         }
 
         private void Clear(Control.ControlCollection parentControl)//czyści obraz
@@ -236,13 +294,11 @@ namespace WindowsFormsApp1
                 Clear(control.Controls);
 
                 if (control is TextBox)
-                {
+                {                    
                     ((TextBox)control).Text = String.Empty;
                 }
             } 
         }
-
-
 
         private void btnZapisz_Click(object sender, EventArgs e)
         {
@@ -271,15 +327,7 @@ namespace WindowsFormsApp1
         private void wyczyscformularz_Click(object sender, EventArgs e)
         {
             Clear(this.Controls);
-            rtbNotatki.Text = String.Empty;
-            rtbProfil.Text = String.Empty;
-            rtbKlasaProfila.Text = String.Empty;
-            rtbLinia.Text = String.Empty;
-            rtbCechowanie.Text = String.Empty;
-            rtbNrNarzędzia.Text = String.Empty;
-            rtbMateriałPVC.Text = String.Empty;
-            rtbMaterialModyfikatoraa.Text = String.Empty;
-            rtbMateriałStabilizator.Text = String.Empty;
+           
         }
 
         private void chpn_press(object sender, KeyPressEventArgs e)
@@ -289,6 +337,22 @@ namespace WindowsFormsApp1
             {
                 e.Handled = true;
             }
+        }
+
+
+        private void label34_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label36_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label35_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
