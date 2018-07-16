@@ -1,6 +1,7 @@
 ﻿using System;
 using Xunit;
 using WindowsFormsApp1;
+using AluCharpy;
 
 namespace Tests
 {

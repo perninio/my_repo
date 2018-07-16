@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Text.RegularExpressions;
 
-namespace WindowsFormsApp1
+namespace AluCharpy
 {
     public class CharpyCalc
     {       
@@ -15,22 +11,7 @@ namespace WindowsFormsApp1
         }
 
 
-        public float Licz_udarnosc(float val1, float val2, float val3)
-        {
-            try
-            {
-                if(val2 ==0 || val3==0)
-                {
-                    throw new Exception();
-                }
-            }
-            catch(Exception)
-            {
-                System.Windows.Forms.MessageBox.Show("Uwaga dzielenie przez 0");
-                return 0;
-            }
-            return (val1 * 1000) / (val2 * val3);
-        }
+      
 
         public float Srednia(float[] tab)
         {
