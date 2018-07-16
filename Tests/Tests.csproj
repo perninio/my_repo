@@ -73,9 +73,9 @@
     <Analyzer Include="..\packages\xunit.analyzers.0.7.0\analyzers\dotnet\cs\xunit.analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WindowsFormsApp1\WindowsFormsApp1.csproj">
+    <ProjectReference Include="..\WindowsFormsApp1\AluCharpy.csproj">
       <Project>{b58a9476-2ca1-417d-8f1c-00e7aa280ba7}</Project>
-      <Name>WindowsFormsApp1</Name>
+      <Name>AluCharpy</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
