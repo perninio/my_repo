@@ -1194,7 +1194,6 @@
             this.label36.Size = new System.Drawing.Size(33, 26);
             this.label36.TabIndex = 59;
             this.label36.Text = "C/H/P/N";
-            this.label36.Click += new System.EventHandler(this.label36_Click);
             // 
             // label34
             // 
@@ -1205,7 +1204,6 @@
             this.label34.Size = new System.Drawing.Size(33, 13);
             this.label34.TabIndex = 57;
             this.label34.Text = "[mm]";
-            this.label34.Click += new System.EventHandler(this.label34_Click);
             // 
             // label35
             // 
@@ -1216,7 +1214,6 @@
             this.label35.Size = new System.Drawing.Size(33, 13);
             this.label35.TabIndex = 58;
             this.label35.Text = "[mm]";
-            this.label35.Click += new System.EventHandler(this.label35_Click);
             // 
             // tableLayoutPanel1Header
             // 
