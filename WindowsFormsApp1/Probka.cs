@@ -1,24 +1,52 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Text.RegularExpressions;
-
-namespace WindowsFormsApp1
+﻿namespace AluCharpy
 {
     public class Probka
     {
-        public System.Windows.Forms.TextBox[] textboxtab { get; set; }
-        public Probka()
+        private float _pracaMlotaZuzyta;
+        private float _gruboscSciankiProfila;
+        private float _odlegloscMiedzyKarbam;
+
+        public string PracaMlotaZuzyta { get; set; }
+        public string GruboscSciankiProfila { get; set; }
+        public string OdlegloscMiedzyKarbami { get; set; }
+        public string RodzajPekniecia { get; set; }
+
+        public int NrProbki { get; set; }
+        public float Udarnosc { get; set; }
+
+        public Probka(int nrProbki, string pracaMlotaZuzyta, string gruboscSciankiProfila, string odlegloscMiedzyKarbami, string rodzajPekniecia)
         {
-            textboxtab = new System.Windows.Forms.TextBox[4];
+            NrProbki = nrProbki;
+            PracaMlotaZuzyta = pracaMlotaZuzyta;
+            GruboscSciankiProfila = gruboscSciankiProfila;
+            OdlegloscMiedzyKarbami = odlegloscMiedzyKarbami;
+            RodzajPekniecia = rodzajPekniecia;
         }
 
-        String[] wartext=new string[4];
-        float[] wartlicz=new float[4];        
+        public bool LiczUdarnosc()
+        {
+            Udarnosc = 0;
+
+            var tryParseResult = TryParseInputValues();
+            if (!tryParseResult) return false;
+
+            if (_odlegloscMiedzyKarbam == 0 || _gruboscSciankiProfila == 0)
+            {
+                return false;
+            }
+
+            Udarnosc = (_pracaMlotaZuzyta * 1000) / (_gruboscSciankiProfila * _odlegloscMiedzyKarbam);
+            return true;
+        }
+        private bool TryParseInputValues()
+        {
+            bool try1 = float.TryParse(PracaMlotaZuzyta, out _pracaMlotaZuzyta);
+            bool try2 = float.TryParse(GruboscSciankiProfila, out _gruboscSciankiProfila);
+            bool try3 = float.TryParse(OdlegloscMiedzyKarbami, out _odlegloscMiedzyKarbam);
+
+            return try1 && try2 && try3;
+
+        }
     }
 }
+

@@ -9,189 +9,100 @@ using System.Threading.Tasks;
 using System.Text.RegularExpressions;
 
 using System.Windows.Forms;
+using AluCharpy;
 
 namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
         public CharpyCalc Calculator { get; set; }
-        public Probka[] tabprob;
+        public List<Probka> Probki;
         public Form1()
         {
             InitializeComponent();
             Calculator = new CharpyCalc();
-            tabprob = new Probka[10];
+            Probki = new List<Probka>();
         }
 
-
-        //todo: zmienic nazwy buttonow i event handler-ow
-        private void Licz_Click(object sender, EventArgs e)//Licz
+        private void Licz_Click(object sender, EventArgs e)
         {
-            float[] wynik = new float[10];
             //kolumna1
-            string text1 = tb1Prml.Text;
-            string text2 = tb1GruScProf.Text;
-            string text3 = tb1OdlMiWierzKarb.Text;
-            string znak1= tb1RodzPek.Text;
-
-            float numVal1;
-            float numVal2;
-            float numVal3;
-            float.TryParse(text1, out numVal1);
-            float.TryParse(text2, out numVal2);
-            float.TryParse(text3, out numVal3);
-
-
-            wynik[0] = Calculator.Licz_udarnosc(numVal1, numVal2, numVal3);
-            tb1Ud.Text = Convert.ToString(wynik[0]);
+            var probka1 = new Probka(1, tb1Prml.Text, tb1GruScProf.Text, tb1OdlMiWierzKarb.Text, tb1RodzPek.Text);
+            Probki.Add(probka1);
+            if (probka1.LiczUdarnosc())
+            {
+                tb1Ud.Text = probka1.Udarnosc.ToString("N4");
+            }
 
             //kolumna2
-            string text4 = tb2Prml.Text;
-            string text5 = tb2GruScProf.Text;
-            string text6 = tb2OdlMiWierzKarb.Text;
-            string znak2 = tb2RodzPek.Text;
-
-            float numVal4;
-            float numVal5;
-            float numVal6;
-            float.TryParse(text4, out numVal4);
-            float.TryParse(text5, out numVal5);
-            float.TryParse(text6, out numVal6);
-
-            wynik[1] = Calculator.Licz_udarnosc(numVal4, numVal5, numVal6);
-            tb2Ud.Text = Convert.ToString(wynik[1]);
+            var probka2 = new Probka(2, tb2Prml.Text, tb2GruScProf.Text, tb2OdlMiWierzKarb.Text, tb2RodzPek.Text);
+            Probki.Add(probka2);
+            if (probka2.LiczUdarnosc())
+            {
+                tb2Ud.Text = probka2.Udarnosc.ToString("N4");
+            }
 
             //kolumna3
-            string text7 = tb3Prml.Text;
-            string text8 = tb3GruScProf.Text;
-            string text9 = tb3OdlMiWierzKarb.Text;
-
-            float numVal7;
-            float numVal8;
-            float numVal9;
-            float.TryParse(text7, out numVal7);
-            float.TryParse(text8, out numVal8);
-            float.TryParse(text9, out numVal9);
-            string znak3 = tb3RodzPek.Text;
-
-            wynik[2] = Calculator.Licz_udarnosc(numVal7, numVal8, numVal9);
-            tb3Ud.Text = Convert.ToString(wynik[2]);
-
+            var probka3 = new Probka(3, tb3Prml.Text, tb3GruScProf.Text, tb3OdlMiWierzKarb.Text, tb3RodzPek.Text);
+            Probki.Add(probka3);
+            if (probka3.LiczUdarnosc())
+            {
+                tb3Ud.Text = probka3.Udarnosc.ToString("N4");
+            }
             //kolumna4
-            string text10 = tb4Prml.Text;
-            string text11 = tb4GruScProf.Text;
-            string text12 = tb4OdlMiWierzKarb.Text;
-
-            float numVal10;
-            float numVal11;
-            float numVal12;
-            float.TryParse(text10, out numVal10);
-            float.TryParse(text11, out numVal11);
-            float.TryParse(text12, out numVal12);
-            string znak4 = tb4RodzPek.Text;
-
-            wynik[3] = Calculator.Licz_udarnosc(numVal10, numVal11, numVal12);
-            tb4Ud.Text = Convert.ToString(wynik[3]);
-
+            var probka4 = new Probka(4, tb4Prml.Text, tb4GruScProf.Text, tb4OdlMiWierzKarb.Text, tb4RodzPek.Text);
+            Probki.Add(probka4);
+            if (probka4.LiczUdarnosc())
+            {
+                tb4Ud.Text = probka4.Udarnosc.ToString("N4");
+            }
             //kolumna5
-            string text13 = tb5Prml.Text;
-            string text14 = tb5GruScProf.Text;
-            string text15 = tb5OdlMiWierzKarb.Text;
-
-            float numVal13;
-            float numVal14;
-            float numVal15;
-            float.TryParse(text13, out numVal13);
-            float.TryParse(text14, out numVal14);
-            float.TryParse(text15, out numVal15);
-            string znak5 = tb5RodzPek.Text;
-
-            wynik[4] = Calculator.Licz_udarnosc(numVal13, numVal14, numVal15);
-            tb5Ud.Text = Convert.ToString(wynik[4]);
-
+            var probka5 = new Probka(5, tb5Prml.Text, tb5GruScProf.Text, tb5OdlMiWierzKarb.Text, tb5RodzPek.Text);
+            Probki.Add(probka5);
+            if (probka5.LiczUdarnosc())
+            {
+                tb5Ud.Text = probka5.Udarnosc.ToString("N4");
+            }
             //kolumna6
-            string text16 = tb6Prml.Text;
-            string text17 = tb6GruScProf.Text;
-            string text18 = tb6OdlMiWierzKarb.Text;
-
-            float numVal16;
-            float numVal17;
-            float numVal18;
-            float.TryParse(text16, out numVal16);
-            float.TryParse(text17, out numVal17);
-            float.TryParse(text18, out numVal18);
-            string znak6 = tb6RodzPek.Text;
-
-            wynik[5] = Calculator.Licz_udarnosc(numVal16, numVal17, numVal18);
-            tb6Ud.Text = Convert.ToString(wynik[5]);
-
+            var probka6 = new Probka(6, tb6Prml.Text, tb6GruScProf.Text, tb6OdlMiWierzKarb.Text, tb6RodzPek.Text);
+            Probki.Add(probka6);
+            if (probka6.LiczUdarnosc())
+            {
+                tb6Ud.Text = probka6.Udarnosc.ToString("N4");
+            }
             //kolumna7
-            string text19 = tb7Prml.Text;
-            string text20 = tb7GruScProf.Text;
-            string text21 = tb7OdlMiWierzKarb.Text;
-
-            float numVal19;
-            float numVal20;
-            float numVal21;
-            float.TryParse(text19, out numVal19);
-            float.TryParse(text20, out numVal20);
-            float.TryParse(text21, out numVal21);
-            string znak7 = tb7RodzPek.Text;
-
-            wynik[6] = Calculator.Licz_udarnosc(numVal19, numVal20, numVal21);
-            tb7Ud.Text = Convert.ToString(wynik[6]);
+            var probka7 = new Probka(7, tb7Prml.Text, tb7GruScProf.Text, tb7OdlMiWierzKarb.Text, tb7RodzPek.Text);
+            Probki.Add(probka7);
+            if (probka7.LiczUdarnosc())
+            {
+                tb7Ud.Text = probka7.Udarnosc.ToString("N4");
+            }
 
             //kolumna8
-            string text22 = tb8Prml.Text;
-            string text23 = tb8GruScProf.Text;
-            string text24 = tb8OdlMiWierzKarb.Text;
+            var probka8 = new Probka(8, tb8Prml.Text, tb8GruScProf.Text, tb8OdlMiWierzKarb.Text, tb8RodzPek.Text);
+            Probki.Add(probka8);
+            if (probka8.LiczUdarnosc())
+            {
+                tb8Ud.Text = probka8.Udarnosc.ToString("N4");
+            }
 
-            float numVal22;
-            float numVal23;
-            float numVal24;
-            float.TryParse(text22, out numVal22);
-            float.TryParse(text23, out numVal23);
-            float.TryParse(text24, out numVal24);
-            string znak8 = tb8RodzPek.Text;
-
-            wynik[7] = Calculator.Licz_udarnosc(numVal22, numVal23, numVal24);
-            tb8Ud.Text = Convert.ToString(wynik[7]);
-            //
             //kolumna9
-            string text25 = tb9Prml.Text;
-            string text26 = tb9GruScProf.Text;
-            string text27 = tb9OdlMiWierzKarb.Text;
+            var probka9 = new Probka(9, tb9Prml.Text, tb9GruScProf.Text, tb9OdlMiWierzKarb.Text, tb9RodzPek.Text);
+            Probki.Add(probka9);
+            if (probka9.LiczUdarnosc())
+            {
+                tb9Ud.Text = probka9.Udarnosc.ToString("N4");
+            }
 
-            float numVal25;
-            float numVal26;
-            float numVal27;
-            float.TryParse(text25, out numVal25);
-            float.TryParse(text26, out numVal26);
-            float.TryParse(text27, out numVal27);
-            string znak9 = tb9RodzPek.Text;
-
-            wynik[8] = Calculator.Licz_udarnosc(numVal25, numVal26, numVal27);
-            tb9Ud.Text = Convert.ToString(wynik[8]);
-            ////
             //kolumna10
-            string text28 = tb10Prml.Text;
-            string text29 = tb10GruScProf.Text;
-            string text30 = tb10OdlMiWierzKarb.Text;
+            var probka10 = new Probka(10, tb10Prml.Text, tb10GruScProf.Text, tb10OdlMiWierzKarb.Text, tb10RodzPek.Text);
+            Probki.Add(probka10);
+            if (probka10.LiczUdarnosc())
+            {
+                tb10Ud.Text = probka10.Udarnosc.ToString("N4");
+            }
 
-            float numVal28;
-            float numVal29;
-            float numVal30;
-            float.TryParse(text28, out numVal28);
-            float.TryParse(text29, out numVal29);
-            float.TryParse(text30, out numVal30);
-            string znak10 = tb10RodzPek.Text;
             
-            wynik[9] = Calculator.Licz_udarnosc(numVal28, numVal29, numVal30);
-            tb10Ud.Text = Convert.ToString(wynik[9]);
-
-            //double[] tab = wynik;
-
-            ////
             double[] doubleArray = new double[10];
             doubleArray= Array.ConvertAll(wynik, x => (double)x);
             
