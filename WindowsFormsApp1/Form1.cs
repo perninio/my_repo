@@ -15,17 +15,17 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
-        public CharpyCalc Calculator { get; set; }
         public List<Probka> Probki;
         public Form1()
         {
             InitializeComponent();
-            Calculator = new CharpyCalc();
             Probki = new List<Probka>();
         }
 
         private void Licz_Click(object sender, EventArgs e)
         {
+            Probki = new List<Probka>();
+
             //kolumna1
             var probka1 = new Probka(1, tb1Prml.Text, tb1GruScProf.Text, tb1OdlMiWierzKarb.Text, tb1RodzPek.Text);
             Probki.Add(probka1);
@@ -102,19 +102,19 @@ namespace WindowsFormsApp1
                 tb10Ud.Text = probka10.Udarnosc.ToString("N4");
             }
 
+            var wynikBadania = new WynikBadania();
+            var obliczWynikBadaniaResult = wynikBadania.ObliczWynikBadania(Probki);
+            if (obliczWynikBadaniaResult == false)
+            {
+                //todo:zalogować i pokazać błą
+            }
 
-            
-            double pom =(Calculator.StandardDeviation(doubleArray));//obliczenia na double stad castowanie
-            float od_std_war= Convert.ToSingle(pom);
-            //float[] tab = { , numVal5, numVal8, numVal11, numVal14, numVal17, numVal20, numVal23,numVal26,numVal29 };
-            float sr_grub_scianek_war = Calculator.Srednia(tab);
-            float rozp_wart_udar_war = Calculator.RozpietoscWartosciUdarnosci(wynik);
-            tbSrUd.Text = Convert.ToString(Probki);//licz średnią ze wszystkich udarności
-            tbOdchStd.Text = Convert.ToString(od_std_war);
-            tbEstNieo.Text = Convert.ToString(Calculator.EstymatorNieobciążonyOdchyleniaStandardowego(od_std_war));
-            tbSrGrub.Text = Convert.ToString(sr_grub_scianek_war);
-            tbRozpWart.Text = Convert.ToString(rozp_wart_udar_war);
-            
+            tbSrUd.Text = wynikBadania.SredniaUdarnosc.ToString("N4");
+            tbOdchStd.Text = wynikBadania.Odchylenie.ToString("N4");
+            tbEstNieo.Text = wynikBadania.EstymatorNieobciazonyOdchylenia.ToString("N4");
+            tbSrGrub.Text = wynikBadania.SredniaGruboscScianki.ToString("N4");
+            tbRozpWart.Text = wynikBadania.RozpietoscWartosci.ToString("N4");
+
         }
 
         private void tylkoliczbyHandler(object sender, KeyPressEventArgs e)
@@ -196,17 +196,17 @@ namespace WindowsFormsApp1
             tb1Ud.Text = String.Empty;
         }
 
-        private void Clear(Control.ControlCollection parentControl)//czyści obraz
+        private void ClearAllTextBoxes(Control.ControlCollection parentControl)//czyści obraz
         {
             foreach (Control control in parentControl)
             {
-                Clear(control.Controls);
+                ClearAllTextBoxes(control.Controls);
 
                 if (control is TextBox)
-                {                    
+                {
                     ((TextBox)control).Text = String.Empty;
                 }
-            } 
+            }
         }
 
         private void btnZapisz_Click(object sender, EventArgs e)
@@ -214,54 +214,33 @@ namespace WindowsFormsApp1
             MessageBox.Show("Zapisano pomyślnie");
         }
 
-        private void btnustawodlkarb_Click(object sender, EventArgs e)
+        private void btnUstawOdlegloscKarbow_Click(object sender, EventArgs e)
         {
-            tb1OdlMiWierzKarb.Text = "3,1";
-            tb2OdlMiWierzKarb.Text = "3,1";
-            tb3OdlMiWierzKarb.Text = "3,1";
-            tb4OdlMiWierzKarb.Text = "3,1";
-            tb5OdlMiWierzKarb.Text = "3,1";
-            tb6OdlMiWierzKarb.Text = "3,1";
-            tb7OdlMiWierzKarb.Text = "3,1";
-            tb8OdlMiWierzKarb.Text = "3,1";
-            tb9OdlMiWierzKarb.Text = "3,1";
-            tb10OdlMiWierzKarb.Text = "3,1";
+            var domyslnaOdlegloscKarbow = "3,1";
+            tb1OdlMiWierzKarb.Text =
+            tb2OdlMiWierzKarb.Text =
+            tb3OdlMiWierzKarb.Text =
+            tb4OdlMiWierzKarb.Text =
+            tb5OdlMiWierzKarb.Text =
+            tb6OdlMiWierzKarb.Text =
+            tb7OdlMiWierzKarb.Text =
+            tb8OdlMiWierzKarb.Text =
+            tb9OdlMiWierzKarb.Text =
+            tb10OdlMiWierzKarb.Text = domyslnaOdlegloscKarbow;
         }
 
-        private void richTextBox2_TextChanged(object sender, KeyPressEventArgs e)
+        private void WyczyscFormularz_Click(object sender, EventArgs e)
         {
-
+            ClearAllTextBoxes(this.Controls);
         }
 
-        private void wyczyscformularz_Click(object sender, EventArgs e)
+        private void RodzajPeknieciaTexboxes_OnKeyPress(object sender, KeyPressEventArgs e)
         {
-            Clear(this.Controls);
-           
-        }
-
-        private void chpn_press(object sender, KeyPressEventArgs e)
-        {
-            char ch = e.KeyChar;
-            if (ch != 'n' && ch != 'p' && ch != 'h' && ch != 'c' && ch != 'N' && ch != 'P' && ch != 'H' && ch != 'C')
+            var ch = e.KeyChar.ToString().ToUpper();
+            if (!RodzajPeknieciaSlownik.RodzajePekniec.Contains(ch))
             {
                 e.Handled = true;
             }
-        }
-
-
-        private void label34_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label36_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label35_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
