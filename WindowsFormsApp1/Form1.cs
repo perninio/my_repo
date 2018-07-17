@@ -49,9 +49,60 @@ namespace WindowsFormsApp1
             {
                 tb3Ud.Text = probka3.Udarnosc.ToString("N4");
             }
+            //kolumna4
+            var probka4 = new Probka(4, tb4Prml.Text, tb4GruScProf.Text, tb4OdlMiWierzKarb.Text, tb4RodzPek.Text);
+            Probki.Add(probka4);
+            if (probka4.LiczUdarnosc())
+            {
+                tb4Ud.Text = probka4.Udarnosc.ToString("N4");
+            }
+            //kolumna5
+            var probka5 = new Probka(5, tb5Prml.Text, tb5GruScProf.Text, tb5OdlMiWierzKarb.Text, tb5RodzPek.Text);
+            Probki.Add(probka5);
+            if (probka5.LiczUdarnosc())
+            {
+                tb5Ud.Text = probka5.Udarnosc.ToString("N4");
+            }
+            //kolumna6
+            var probka6 = new Probka(6, tb6Prml.Text, tb6GruScProf.Text, tb6OdlMiWierzKarb.Text, tb6RodzPek.Text);
+            Probki.Add(probka6);
+            if (probka6.LiczUdarnosc())
+            {
+                tb6Ud.Text = probka6.Udarnosc.ToString("N4");
+            }
+            //kolumna7
+            var probka7 = new Probka(7, tb7Prml.Text, tb7GruScProf.Text, tb7OdlMiWierzKarb.Text, tb7RodzPek.Text);
+            Probki.Add(probka7);
+            if (probka7.LiczUdarnosc())
+            {
+                tb7Ud.Text = probka7.Udarnosc.ToString("N4");
+            }
 
-            //todo: do 10 probek
+            //kolumna8
+            var probka8 = new Probka(8, tb8Prml.Text, tb8GruScProf.Text, tb8OdlMiWierzKarb.Text, tb8RodzPek.Text);
+            Probki.Add(probka8);
+            if (probka8.LiczUdarnosc())
+            {
+                tb8Ud.Text = probka8.Udarnosc.ToString("N4");
+            }
 
+            //kolumna9
+            var probka9 = new Probka(9, tb9Prml.Text, tb9GruScProf.Text, tb9OdlMiWierzKarb.Text, tb9RodzPek.Text);
+            Probki.Add(probka9);
+            if (probka9.LiczUdarnosc())
+            {
+                tb9Ud.Text = probka9.Udarnosc.ToString("N4");
+            }
+
+            //kolumna10
+            var probka10 = new Probka(10, tb10Prml.Text, tb10GruScProf.Text, tb10OdlMiWierzKarb.Text, tb10RodzPek.Text);
+            Probki.Add(probka10);
+            if (probka10.LiczUdarnosc())
+            {
+                tb10Ud.Text = probka10.Udarnosc.ToString("N4");
+            }
+
+            
             double[] doubleArray = new double[10];
             doubleArray= Array.ConvertAll(wynik, x => (double)x);
             
