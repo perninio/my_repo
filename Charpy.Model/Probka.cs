@@ -1,4 +1,4 @@
-﻿namespace AluCharpy
+﻿namespace Charpy.Model
 {
     public class Probka
     {

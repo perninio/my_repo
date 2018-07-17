@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AluCharpy", "WindowsFormsAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{955ADD38-4432-4684-AC93-78B50807B732}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Charpy.Model", "Charpy.Model\Charpy.Model.csproj", "{08EB59AF-FCA8-4944-A23B-98CE39AB653A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{955ADD38-4432-4684-AC93-78B50807B732}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{955ADD38-4432-4684-AC93-78B50807B732}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{955ADD38-4432-4684-AC93-78B50807B732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08EB59AF-FCA8-4944-A23B-98CE39AB653A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08EB59AF-FCA8-4944-A23B-98CE39AB653A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08EB59AF-FCA8-4944-A23B-98CE39AB653A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08EB59AF-FCA8-4944-A23B-98CE39AB653A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

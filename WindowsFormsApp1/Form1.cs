@@ -10,6 +10,8 @@ using System.Text.RegularExpressions;
 
 using System.Windows.Forms;
 using AluCharpy;
+using Charpy.Model;
+
 
 namespace WindowsFormsApp1
 {
