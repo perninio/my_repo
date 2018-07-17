@@ -5,7 +5,7 @@ namespace AluCharpy
 {
     public class CharpyCalc
     {       
-        public float RozpietoscWartosciUdarnosci(float[] tab)
+        public double RozpietoscWartosciUdarnosci(float[] tab)
         {
             return tab.Max() - tab.Min();
         }

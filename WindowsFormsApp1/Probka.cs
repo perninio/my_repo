@@ -2,17 +2,18 @@
 {
     public class Probka
     {
-        private float _pracaMlotaZuzyta;
-        private float _gruboscSciankiProfila;
-        private float _odlegloscMiedzyKarbam;
+        private double _pracaMlotaZuzyta;
+        private double _gruboscSciankiProfila;
+        private double _odlegloscMiedzyKarbam;
 
         public string PracaMlotaZuzyta { get; set; }
         public string GruboscSciankiProfila { get; set; }
         public string OdlegloscMiedzyKarbami { get; set; }
         public string RodzajPekniecia { get; set; }
 
+
         public int NrProbki { get; set; }
-        public float Udarnosc { get; set; }
+        public double Udarnosc { get; set; }
 
         public Probka(int nrProbki, string pracaMlotaZuzyta, string gruboscSciankiProfila, string odlegloscMiedzyKarbami, string rodzajPekniecia)
         {
@@ -38,11 +39,12 @@
             Udarnosc = (_pracaMlotaZuzyta * 1000) / (_gruboscSciankiProfila * _odlegloscMiedzyKarbam);
             return true;
         }
+
         private bool TryParseInputValues()
         {
-            bool try1 = float.TryParse(PracaMlotaZuzyta, out _pracaMlotaZuzyta);
-            bool try2 = float.TryParse(GruboscSciankiProfila, out _gruboscSciankiProfila);
-            bool try3 = float.TryParse(OdlegloscMiedzyKarbami, out _odlegloscMiedzyKarbam);
+            bool try1 = double.TryParse(PracaMlotaZuzyta, out _pracaMlotaZuzyta);
+            bool try2 = double.TryParse(GruboscSciankiProfila, out _gruboscSciankiProfila);
+            bool try3 = double.TryParse(OdlegloscMiedzyKarbami, out _odlegloscMiedzyKarbam);
 
             return try1 && try2 && try3;
 

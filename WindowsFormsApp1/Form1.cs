@@ -102,16 +102,14 @@ namespace WindowsFormsApp1
                 tb10Ud.Text = probka10.Udarnosc.ToString("N4");
             }
 
-            
-            double[] doubleArray = new double[10];
-            doubleArray= Array.ConvertAll(wynik, x => (double)x);
+
             
             double pom =(Calculator.StandardDeviation(doubleArray));//obliczenia na double stad castowanie
             float od_std_war= Convert.ToSingle(pom);
-            float[] tab = { numVal2, numVal5, numVal8, numVal11, numVal14, numVal17, numVal20, numVal23,numVal26,numVal29 };
+            //float[] tab = { , numVal5, numVal8, numVal11, numVal14, numVal17, numVal20, numVal23,numVal26,numVal29 };
             float sr_grub_scianek_war = Calculator.Srednia(tab);
             float rozp_wart_udar_war = Calculator.RozpietoscWartosciUdarnosci(wynik);
-            tbSrUd.Text = Convert.ToString(Calculator.Srednia(wynik));
+            tbSrUd.Text = Convert.ToString(Probki);//licz średnią ze wszystkich udarności
             tbOdchStd.Text = Convert.ToString(od_std_war);
             tbEstNieo.Text = Convert.ToString(Calculator.EstymatorNieobciążonyOdchyleniaStandardowego(od_std_war));
             tbSrGrub.Text = Convert.ToString(sr_grub_scianek_war);
