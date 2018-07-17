@@ -29,14 +29,14 @@
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
                     <RowDefinition/>
-                    <RowDefinition/>
+                    <RowDefinition Height="30"/>
                 </Grid.RowDefinitions>
                 <TextBlock Text="Data dodania próbki"/>
                 <DatePicker Grid.Row="0" Grid.Column="1" SelectedDateFormat="Short" />
                 <TextBlock Grid.Row="1" Grid.Column="0"  Text="Profil"/>
                 <TextBox  Grid.Row="1" Grid.Column="1" />
-                
-                
+
+
                 <Grid Grid.Column="6" Grid.Row="0" Grid.RowSpan="2">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition></ColumnDefinition>
@@ -56,12 +56,72 @@
 
             </Grid>
             <!--Grid dane-->
+            <Grid x:Name="2RowDane" Grid.Row="1">
+                <!--Grid left przyciski-->
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="60*"></ColumnDefinition>
+                    <ColumnDefinition Width="30"></ColumnDefinition>
+                    <ColumnDefinition Width="60*"></ColumnDefinition>
+                    <ColumnDefinition Width="60*"></ColumnDefinition>
+                    <ColumnDefinition Width="60*"></ColumnDefinition>
+                    <ColumnDefinition Width="60*"></ColumnDefinition>
+                    
+                    <ColumnDefinition Width="60*"></ColumnDefinition>
+                    <ColumnDefinition Width="60*"></ColumnDefinition>
+                    <ColumnDefinition Width="60*"></ColumnDefinition>
+                    <ColumnDefinition Width="60*"></ColumnDefinition>
+                    <ColumnDefinition Width="60*"></ColumnDefinition>
+                    <ColumnDefinition Width="60*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Wyniki pomiarów" Grid.ColumnSpan="2"/>
+                <TextBlock Grid.Row="0" Grid.Column="2" Text="Próbka1" />
+                <TextBlock Grid.Row="0" Grid.Column="3" Text="Próbka2" />
+                <TextBlock Grid.Row="0" Grid.Column="4" Text="Próbka3" />
+                <TextBlock Grid.Row="0" Grid.Column="5" Text="Próbka4" />
+                <TextBlock Grid.Row="0" Grid.Column="6" Text="Próbka5" />
+                <TextBlock Grid.Row="0" Grid.Column="7" Text="Próbka6" />
+                <TextBlock Grid.Row="0" Grid.Column="8" Text="Próbka7" />
+                <TextBlock Grid.Row="0" Grid.Column="9" Text="Próbka8" />
+                <TextBlock Grid.Row="0" Grid.Column="10" Text="Próbka9" />
+                <TextBlock Grid.Row="0" Grid.Column="11" Text="Próbka10" />
+                <TextBlock Grid.Row="1" Grid.Column="0" Text="Praca młota zużyta na zniszczenie próbki" />
+                <TextBlock Grid.Row="2" Grid.Column="0" Text="Grubość ścianki profila" />
+                <TextBlock Grid.Row="3" Grid.Column="0" Text="Odległość międzyy wierzchołkami karbów" />
+                <TextBlock Grid.Row="4" Grid.Column="0" Text="Rodzaj pęknięcia" />
+                <TextBlock Grid.Row="1" Grid.Column="1" Text="[J]" />
+                <TextBlock Grid.Row="2" Grid.Column="1" Text="[mm]" />
+                <TextBlock Grid.Row="3" Grid.Column="1" Text="[mm]" />
+                <TextBlock Grid.Row="4" Grid.Column="1" Text="C/H/P/N" />
+                
+                
+
+
+            </Grid>
 
             <!--Grid wyniki-->
-            
+
 
         </Grid>
-        
+        <Grid x:Name="RightGrid" Grid.Column="1">
+            <!--Grid left przyciski-->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="3*"/>
+
+            </Grid.RowDefinitions>
+
+        </Grid>
+
         <!-- Grid Menu-->
 
     </Grid>
