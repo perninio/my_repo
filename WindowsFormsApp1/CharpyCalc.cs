@@ -10,9 +10,6 @@ namespace AluCharpy
             return tab.Max() - tab.Min();
         }
 
-
-      
-
         public float Srednia(float[] tab)
         {
             float wynik = 0;
