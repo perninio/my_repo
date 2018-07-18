@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="AluCharpy.WPF.Controls.ProbkaControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AluCharpy.WPF.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="200" d:DesignWidth="150">
+    <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+        <TextBlock Text="{Binding NrProbki}"/>
+        <TextBox Grid.Row="1" Text="{Binding PracaMlotaZuzyta}"/>
+        <TextBox Grid.Row="2" Text="{Binding GruboscSciankiProfilaText}"/>
+        <TextBox Grid.Row="3" Text="{Binding OdlegloscMiedzyKarbami}"/>
+        <TextBox Grid.Row="4" Text="{Binding RodzajPekniecia}"/>
+        <TextBox Grid.Row="5" Text="{Binding Udarnosc}"/>
+    </Grid>
+</UserControl>

@@ -182,27 +182,27 @@
             // tb1Prml
             // 
             this.tb1Prml.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb1Prml.Location = new System.Drawing.Point(192, 56);
+            this.tb1Prml.Location = new System.Drawing.Point(192, 52);
             this.tb1Prml.Name = "tb1Prml";
-            this.tb1Prml.Size = new System.Drawing.Size(110, 20);
+            this.tb1Prml.Size = new System.Drawing.Size(110, 26);
             this.tb1Prml.TabIndex = 0;
             this.tb1Prml.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tylkoliczbyHandler);
             // 
             // tb1GruScProf
             // 
             this.tb1GruScProf.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb1GruScProf.Location = new System.Drawing.Point(192, 129);
+            this.tb1GruScProf.Location = new System.Drawing.Point(192, 123);
             this.tb1GruScProf.Name = "tb1GruScProf";
-            this.tb1GruScProf.Size = new System.Drawing.Size(110, 20);
+            this.tb1GruScProf.Size = new System.Drawing.Size(110, 26);
             this.tb1GruScProf.TabIndex = 1;
             this.tb1GruScProf.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tylkoliczbyHandler);
             // 
             // tb1OdlMiWierzKarb
             // 
             this.tb1OdlMiWierzKarb.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb1OdlMiWierzKarb.Location = new System.Drawing.Point(192, 191);
+            this.tb1OdlMiWierzKarb.Location = new System.Drawing.Point(192, 184);
             this.tb1OdlMiWierzKarb.Name = "tb1OdlMiWierzKarb";
-            this.tb1OdlMiWierzKarb.Size = new System.Drawing.Size(110, 20);
+            this.tb1OdlMiWierzKarb.Size = new System.Drawing.Size(110, 26);
             this.tb1OdlMiWierzKarb.TabIndex = 2;
             this.tb1OdlMiWierzKarb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tylkoliczbyHandler);
             // 
@@ -211,10 +211,10 @@
             this.tb1Ud.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.tb1Ud.BackColor = System.Drawing.SystemColors.Window;
             this.tb1Ud.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.tb1Ud.Location = new System.Drawing.Point(192, 15);
+            this.tb1Ud.Location = new System.Drawing.Point(192, 11);
             this.tb1Ud.Name = "tb1Ud";
             this.tb1Ud.ReadOnly = true;
-            this.tb1Ud.Size = new System.Drawing.Size(110, 20);
+            this.tb1Ud.Size = new System.Drawing.Size(110, 26);
             this.tb1Ud.TabIndex = 59;
             // 
             // label1
@@ -227,7 +227,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label1.Location = new System.Drawing.Point(3, 30);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(144, 73);
+            this.label1.Size = new System.Drawing.Size(144, 71);
             this.label1.TabIndex = 5;
             this.label1.Text = "Praca młota zużyta na zniszczenie próbki";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -238,9 +238,9 @@
             this.label2.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2.Location = new System.Drawing.Point(3, 103);
+            this.label2.Location = new System.Drawing.Point(3, 101);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(144, 73);
+            this.label2.Size = new System.Drawing.Size(144, 71);
             this.label2.TabIndex = 6;
             this.label2.Text = "Grubość ścianki profila";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -250,7 +250,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(42, 301);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(0, 13);
+            this.label3.Size = new System.Drawing.Size(0, 20);
             this.label3.TabIndex = 7;
             // 
             // label4
@@ -259,7 +259,7 @@
             this.label4.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label4.Location = new System.Drawing.Point(3, 176);
+            this.label4.Location = new System.Drawing.Point(3, 172);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(144, 50);
             this.label4.TabIndex = 8;
@@ -295,27 +295,27 @@
             // tb2OdlMiWierzKarb
             // 
             this.tb2OdlMiWierzKarb.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb2OdlMiWierzKarb.Location = new System.Drawing.Point(308, 191);
+            this.tb2OdlMiWierzKarb.Location = new System.Drawing.Point(308, 184);
             this.tb2OdlMiWierzKarb.Name = "tb2OdlMiWierzKarb";
-            this.tb2OdlMiWierzKarb.Size = new System.Drawing.Size(110, 20);
+            this.tb2OdlMiWierzKarb.Size = new System.Drawing.Size(110, 26);
             this.tb2OdlMiWierzKarb.TabIndex = 6;
             this.tb2OdlMiWierzKarb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tylkoliczbyHandler);
             // 
             // tb2GruScProf
             // 
             this.tb2GruScProf.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb2GruScProf.Location = new System.Drawing.Point(308, 129);
+            this.tb2GruScProf.Location = new System.Drawing.Point(308, 123);
             this.tb2GruScProf.Name = "tb2GruScProf";
-            this.tb2GruScProf.Size = new System.Drawing.Size(110, 20);
+            this.tb2GruScProf.Size = new System.Drawing.Size(110, 26);
             this.tb2GruScProf.TabIndex = 5;
             this.tb2GruScProf.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tylkoliczbyHandler);
             // 
             // tb2Prml
             // 
             this.tb2Prml.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb2Prml.Location = new System.Drawing.Point(308, 56);
+            this.tb2Prml.Location = new System.Drawing.Point(308, 52);
             this.tb2Prml.Name = "tb2Prml";
-            this.tb2Prml.Size = new System.Drawing.Size(110, 20);
+            this.tb2Prml.Size = new System.Drawing.Size(110, 26);
             this.tb2Prml.TabIndex = 4;
             this.tb2Prml.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tylkoliczbyHandler);
             // 
@@ -335,27 +335,27 @@
             // tb3OdlMiWierzKarb
             // 
             this.tb3OdlMiWierzKarb.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb3OdlMiWierzKarb.Location = new System.Drawing.Point(424, 191);
+            this.tb3OdlMiWierzKarb.Location = new System.Drawing.Point(424, 184);
             this.tb3OdlMiWierzKarb.Name = "tb3OdlMiWierzKarb";
-            this.tb3OdlMiWierzKarb.Size = new System.Drawing.Size(110, 20);
+            this.tb3OdlMiWierzKarb.Size = new System.Drawing.Size(110, 26);
             this.tb3OdlMiWierzKarb.TabIndex = 10;
             this.tb3OdlMiWierzKarb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tylkoliczbyHandler);
             // 
             // tb3GruScProf
             // 
             this.tb3GruScProf.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb3GruScProf.Location = new System.Drawing.Point(424, 129);
+            this.tb3GruScProf.Location = new System.Drawing.Point(424, 123);
             this.tb3GruScProf.Name = "tb3GruScProf";
-            this.tb3GruScProf.Size = new System.Drawing.Size(110, 20);
+            this.tb3GruScProf.Size = new System.Drawing.Size(110, 26);
             this.tb3GruScProf.TabIndex = 9;
             this.tb3GruScProf.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tylkoliczbyHandler);
             // 
             // tb3Prml
             // 
             this.tb3Prml.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb3Prml.Location = new System.Drawing.Point(424, 56);
+            this.tb3Prml.Location = new System.Drawing.Point(424, 52);
             this.tb3Prml.Name = "tb3Prml";
-            this.tb3Prml.Size = new System.Drawing.Size(110, 20);
+            this.tb3Prml.Size = new System.Drawing.Size(110, 26);
             this.tb3Prml.TabIndex = 8;
             this.tb3Prml.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tylkoliczbyHandler);
             // 
@@ -363,20 +363,20 @@
             // 
             this.tb2Ud.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.tb2Ud.BackColor = System.Drawing.SystemColors.Window;
-            this.tb2Ud.Location = new System.Drawing.Point(308, 15);
+            this.tb2Ud.Location = new System.Drawing.Point(308, 11);
             this.tb2Ud.Name = "tb2Ud";
             this.tb2Ud.ReadOnly = true;
-            this.tb2Ud.Size = new System.Drawing.Size(110, 20);
+            this.tb2Ud.Size = new System.Drawing.Size(110, 26);
             this.tb2Ud.TabIndex = 14;
             // 
             // tb3Ud
             // 
             this.tb3Ud.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.tb3Ud.BackColor = System.Drawing.SystemColors.Window;
-            this.tb3Ud.Location = new System.Drawing.Point(424, 15);
+            this.tb3Ud.Location = new System.Drawing.Point(424, 11);
             this.tb3Ud.Name = "tb3Ud";
             this.tb3Ud.ReadOnly = true;
-            this.tb3Ud.Size = new System.Drawing.Size(110, 20);
+            this.tb3Ud.Size = new System.Drawing.Size(110, 26);
             this.tb3Ud.TabIndex = 15;
             // 
             // label9
@@ -387,7 +387,7 @@
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label9.Location = new System.Drawing.Point(3, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(144, 51);
+            this.label9.Size = new System.Drawing.Size(144, 49);
             this.label9.TabIndex = 20;
             this.label9.Text = "Średnia udarność próbki";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -427,10 +427,10 @@
             // 
             this.tb4Ud.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.tb4Ud.BackColor = System.Drawing.SystemColors.Window;
-            this.tb4Ud.Location = new System.Drawing.Point(540, 15);
+            this.tb4Ud.Location = new System.Drawing.Point(540, 11);
             this.tb4Ud.Name = "tb4Ud";
             this.tb4Ud.ReadOnly = true;
-            this.tb4Ud.Size = new System.Drawing.Size(110, 20);
+            this.tb4Ud.Size = new System.Drawing.Size(110, 26);
             this.tb4Ud.TabIndex = 16;
             // 
             // label10
@@ -449,27 +449,27 @@
             // tb4OdlMiWierzKarb
             // 
             this.tb4OdlMiWierzKarb.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb4OdlMiWierzKarb.Location = new System.Drawing.Point(540, 191);
+            this.tb4OdlMiWierzKarb.Location = new System.Drawing.Point(540, 184);
             this.tb4OdlMiWierzKarb.Name = "tb4OdlMiWierzKarb";
-            this.tb4OdlMiWierzKarb.Size = new System.Drawing.Size(110, 20);
+            this.tb4OdlMiWierzKarb.Size = new System.Drawing.Size(110, 26);
             this.tb4OdlMiWierzKarb.TabIndex = 14;
             this.tb4OdlMiWierzKarb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tylkoliczbyHandler);
             // 
             // tb4GruScProf
             // 
             this.tb4GruScProf.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb4GruScProf.Location = new System.Drawing.Point(540, 129);
+            this.tb4GruScProf.Location = new System.Drawing.Point(540, 123);
             this.tb4GruScProf.Name = "tb4GruScProf";
-            this.tb4GruScProf.Size = new System.Drawing.Size(110, 20);
+            this.tb4GruScProf.Size = new System.Drawing.Size(110, 26);
             this.tb4GruScProf.TabIndex = 13;
             this.tb4GruScProf.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tylkoliczbyHandler);
             // 
             // tb4Prml
             // 
             this.tb4Prml.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb4Prml.Location = new System.Drawing.Point(540, 56);
+            this.tb4Prml.Location = new System.Drawing.Point(540, 52);
             this.tb4Prml.Name = "tb4Prml";
-            this.tb4Prml.Size = new System.Drawing.Size(110, 20);
+            this.tb4Prml.Size = new System.Drawing.Size(110, 26);
             this.tb4Prml.TabIndex = 12;
             this.tb4Prml.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tylkoliczbyHandler);
             // 
@@ -477,10 +477,10 @@
             // 
             this.tb5Ud.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.tb5Ud.BackColor = System.Drawing.SystemColors.Window;
-            this.tb5Ud.Location = new System.Drawing.Point(656, 15);
+            this.tb5Ud.Location = new System.Drawing.Point(656, 11);
             this.tb5Ud.Name = "tb5Ud";
             this.tb5Ud.ReadOnly = true;
-            this.tb5Ud.Size = new System.Drawing.Size(110, 20);
+            this.tb5Ud.Size = new System.Drawing.Size(110, 26);
             this.tb5Ud.TabIndex = 32;
             // 
             // label11
@@ -500,27 +500,27 @@
             // tb5OdlMiWierzKarb
             // 
             this.tb5OdlMiWierzKarb.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb5OdlMiWierzKarb.Location = new System.Drawing.Point(656, 191);
+            this.tb5OdlMiWierzKarb.Location = new System.Drawing.Point(656, 184);
             this.tb5OdlMiWierzKarb.Name = "tb5OdlMiWierzKarb";
-            this.tb5OdlMiWierzKarb.Size = new System.Drawing.Size(110, 20);
+            this.tb5OdlMiWierzKarb.Size = new System.Drawing.Size(110, 26);
             this.tb5OdlMiWierzKarb.TabIndex = 18;
             this.tb5OdlMiWierzKarb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tylkoliczbyHandler);
             // 
             // tb5GruScProf
             // 
             this.tb5GruScProf.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb5GruScProf.Location = new System.Drawing.Point(656, 129);
+            this.tb5GruScProf.Location = new System.Drawing.Point(656, 123);
             this.tb5GruScProf.Name = "tb5GruScProf";
-            this.tb5GruScProf.Size = new System.Drawing.Size(110, 20);
+            this.tb5GruScProf.Size = new System.Drawing.Size(110, 26);
             this.tb5GruScProf.TabIndex = 17;
             this.tb5GruScProf.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tylkoliczbyHandler);
             // 
             // tb5Prml
             // 
             this.tb5Prml.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb5Prml.Location = new System.Drawing.Point(656, 56);
+            this.tb5Prml.Location = new System.Drawing.Point(656, 52);
             this.tb5Prml.Name = "tb5Prml";
-            this.tb5Prml.Size = new System.Drawing.Size(110, 20);
+            this.tb5Prml.Size = new System.Drawing.Size(110, 26);
             this.tb5Prml.TabIndex = 16;
             this.tb5Prml.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tylkoliczbyHandler);
             // 
@@ -528,10 +528,10 @@
             // 
             this.tb8Ud.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.tb8Ud.BackColor = System.Drawing.SystemColors.Window;
-            this.tb8Ud.Location = new System.Drawing.Point(1004, 15);
+            this.tb8Ud.Location = new System.Drawing.Point(1004, 11);
             this.tb8Ud.Name = "tb8Ud";
             this.tb8Ud.ReadOnly = true;
-            this.tb8Ud.Size = new System.Drawing.Size(110, 20);
+            this.tb8Ud.Size = new System.Drawing.Size(110, 26);
             this.tb8Ud.TabIndex = 47;
             // 
             // label12
@@ -550,27 +550,27 @@
             // tb8OdlMiWierzKarb
             // 
             this.tb8OdlMiWierzKarb.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb8OdlMiWierzKarb.Location = new System.Drawing.Point(1004, 191);
+            this.tb8OdlMiWierzKarb.Location = new System.Drawing.Point(1004, 184);
             this.tb8OdlMiWierzKarb.Name = "tb8OdlMiWierzKarb";
-            this.tb8OdlMiWierzKarb.Size = new System.Drawing.Size(110, 20);
+            this.tb8OdlMiWierzKarb.Size = new System.Drawing.Size(110, 26);
             this.tb8OdlMiWierzKarb.TabIndex = 30;
             this.tb8OdlMiWierzKarb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tylkoliczbyHandler);
             // 
             // tb8GruScProf
             // 
             this.tb8GruScProf.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb8GruScProf.Location = new System.Drawing.Point(1004, 129);
+            this.tb8GruScProf.Location = new System.Drawing.Point(1004, 123);
             this.tb8GruScProf.Name = "tb8GruScProf";
-            this.tb8GruScProf.Size = new System.Drawing.Size(110, 20);
+            this.tb8GruScProf.Size = new System.Drawing.Size(110, 26);
             this.tb8GruScProf.TabIndex = 29;
             this.tb8GruScProf.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tylkoliczbyHandler);
             // 
             // tb8Prml
             // 
             this.tb8Prml.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb8Prml.Location = new System.Drawing.Point(1004, 56);
+            this.tb8Prml.Location = new System.Drawing.Point(1004, 52);
             this.tb8Prml.Name = "tb8Prml";
-            this.tb8Prml.Size = new System.Drawing.Size(110, 20);
+            this.tb8Prml.Size = new System.Drawing.Size(110, 26);
             this.tb8Prml.TabIndex = 28;
             this.tb8Prml.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tylkoliczbyHandler);
             // 
@@ -578,10 +578,10 @@
             // 
             this.tb7Ud.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.tb7Ud.BackColor = System.Drawing.SystemColors.Window;
-            this.tb7Ud.Location = new System.Drawing.Point(888, 15);
+            this.tb7Ud.Location = new System.Drawing.Point(888, 11);
             this.tb7Ud.Name = "tb7Ud";
             this.tb7Ud.ReadOnly = true;
-            this.tb7Ud.Size = new System.Drawing.Size(110, 20);
+            this.tb7Ud.Size = new System.Drawing.Size(110, 26);
             this.tb7Ud.TabIndex = 41;
             // 
             // label13
@@ -601,27 +601,27 @@
             // tb7OdlMiWierzKarb
             // 
             this.tb7OdlMiWierzKarb.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb7OdlMiWierzKarb.Location = new System.Drawing.Point(888, 191);
+            this.tb7OdlMiWierzKarb.Location = new System.Drawing.Point(888, 184);
             this.tb7OdlMiWierzKarb.Name = "tb7OdlMiWierzKarb";
-            this.tb7OdlMiWierzKarb.Size = new System.Drawing.Size(110, 20);
+            this.tb7OdlMiWierzKarb.Size = new System.Drawing.Size(110, 26);
             this.tb7OdlMiWierzKarb.TabIndex = 26;
             this.tb7OdlMiWierzKarb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tylkoliczbyHandler);
             // 
             // tb7GruScProf
             // 
             this.tb7GruScProf.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb7GruScProf.Location = new System.Drawing.Point(888, 129);
+            this.tb7GruScProf.Location = new System.Drawing.Point(888, 123);
             this.tb7GruScProf.Name = "tb7GruScProf";
-            this.tb7GruScProf.Size = new System.Drawing.Size(110, 20);
+            this.tb7GruScProf.Size = new System.Drawing.Size(110, 26);
             this.tb7GruScProf.TabIndex = 25;
             this.tb7GruScProf.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tylkoliczbyHandler);
             // 
             // tb7Prml
             // 
             this.tb7Prml.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb7Prml.Location = new System.Drawing.Point(888, 56);
+            this.tb7Prml.Location = new System.Drawing.Point(888, 52);
             this.tb7Prml.Name = "tb7Prml";
-            this.tb7Prml.Size = new System.Drawing.Size(110, 20);
+            this.tb7Prml.Size = new System.Drawing.Size(110, 26);
             this.tb7Prml.TabIndex = 24;
             this.tb7Prml.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tylkoliczbyHandler);
             // 
@@ -629,10 +629,10 @@
             // 
             this.tb6Ud.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.tb6Ud.BackColor = System.Drawing.SystemColors.Window;
-            this.tb6Ud.Location = new System.Drawing.Point(772, 15);
+            this.tb6Ud.Location = new System.Drawing.Point(772, 11);
             this.tb6Ud.Name = "tb6Ud";
             this.tb6Ud.ReadOnly = true;
-            this.tb6Ud.Size = new System.Drawing.Size(110, 20);
+            this.tb6Ud.Size = new System.Drawing.Size(110, 26);
             this.tb6Ud.TabIndex = 40;
             // 
             // label14
@@ -652,72 +652,72 @@
             // tb6OdlMiWierzKarb
             // 
             this.tb6OdlMiWierzKarb.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb6OdlMiWierzKarb.Location = new System.Drawing.Point(772, 191);
+            this.tb6OdlMiWierzKarb.Location = new System.Drawing.Point(772, 184);
             this.tb6OdlMiWierzKarb.Name = "tb6OdlMiWierzKarb";
-            this.tb6OdlMiWierzKarb.Size = new System.Drawing.Size(110, 20);
+            this.tb6OdlMiWierzKarb.Size = new System.Drawing.Size(110, 26);
             this.tb6OdlMiWierzKarb.TabIndex = 22;
             this.tb6OdlMiWierzKarb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tylkoliczbyHandler);
             // 
             // tb6GruScProf
             // 
             this.tb6GruScProf.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb6GruScProf.Location = new System.Drawing.Point(772, 129);
+            this.tb6GruScProf.Location = new System.Drawing.Point(772, 123);
             this.tb6GruScProf.Name = "tb6GruScProf";
-            this.tb6GruScProf.Size = new System.Drawing.Size(110, 20);
+            this.tb6GruScProf.Size = new System.Drawing.Size(110, 26);
             this.tb6GruScProf.TabIndex = 21;
             this.tb6GruScProf.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tylkoliczbyHandler);
             // 
             // tb6Prml
             // 
             this.tb6Prml.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb6Prml.Location = new System.Drawing.Point(772, 56);
+            this.tb6Prml.Location = new System.Drawing.Point(772, 52);
             this.tb6Prml.Name = "tb6Prml";
-            this.tb6Prml.Size = new System.Drawing.Size(110, 20);
+            this.tb6Prml.Size = new System.Drawing.Size(110, 26);
             this.tb6Prml.TabIndex = 20;
             this.tb6Prml.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tylkoliczbyHandler);
             // 
             // tb8RodzPek
             // 
             this.tb8RodzPek.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb8RodzPek.Location = new System.Drawing.Point(1004, 252);
+            this.tb8RodzPek.Location = new System.Drawing.Point(1004, 244);
             this.tb8RodzPek.Name = "tb8RodzPek";
-            this.tb8RodzPek.Size = new System.Drawing.Size(110, 20);
+            this.tb8RodzPek.Size = new System.Drawing.Size(110, 26);
             this.tb8RodzPek.TabIndex = 31;
             this.tb8RodzPek.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.RodzajPeknieciaTexboxes_OnKeyPress);
             // 
             // tb7RodzPek
             // 
             this.tb7RodzPek.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb7RodzPek.Location = new System.Drawing.Point(888, 252);
+            this.tb7RodzPek.Location = new System.Drawing.Point(888, 244);
             this.tb7RodzPek.Name = "tb7RodzPek";
-            this.tb7RodzPek.Size = new System.Drawing.Size(110, 20);
+            this.tb7RodzPek.Size = new System.Drawing.Size(110, 26);
             this.tb7RodzPek.TabIndex = 27;
             this.tb7RodzPek.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.RodzajPeknieciaTexboxes_OnKeyPress);
             // 
             // tb6RodzPek
             // 
             this.tb6RodzPek.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb6RodzPek.Location = new System.Drawing.Point(772, 252);
+            this.tb6RodzPek.Location = new System.Drawing.Point(772, 244);
             this.tb6RodzPek.Name = "tb6RodzPek";
-            this.tb6RodzPek.Size = new System.Drawing.Size(110, 20);
+            this.tb6RodzPek.Size = new System.Drawing.Size(110, 26);
             this.tb6RodzPek.TabIndex = 23;
             this.tb6RodzPek.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.RodzajPeknieciaTexboxes_OnKeyPress);
             // 
             // tb5RodzPek
             // 
             this.tb5RodzPek.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb5RodzPek.Location = new System.Drawing.Point(656, 252);
+            this.tb5RodzPek.Location = new System.Drawing.Point(656, 244);
             this.tb5RodzPek.Name = "tb5RodzPek";
-            this.tb5RodzPek.Size = new System.Drawing.Size(110, 20);
+            this.tb5RodzPek.Size = new System.Drawing.Size(110, 26);
             this.tb5RodzPek.TabIndex = 19;
             this.tb5RodzPek.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.RodzajPeknieciaTexboxes_OnKeyPress);
             // 
             // tb4RodzPek
             // 
             this.tb4RodzPek.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb4RodzPek.Location = new System.Drawing.Point(540, 252);
+            this.tb4RodzPek.Location = new System.Drawing.Point(540, 244);
             this.tb4RodzPek.Name = "tb4RodzPek";
-            this.tb4RodzPek.Size = new System.Drawing.Size(110, 20);
+            this.tb4RodzPek.Size = new System.Drawing.Size(110, 26);
             this.tb4RodzPek.TabIndex = 15;
             this.tb4RodzPek.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.RodzajPeknieciaTexboxes_OnKeyPress);
             // 
@@ -727,9 +727,9 @@
             this.label15.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label15.Location = new System.Drawing.Point(3, 226);
+            this.label15.Location = new System.Drawing.Point(3, 222);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(144, 73);
+            this.label15.Size = new System.Drawing.Size(144, 71);
             this.label15.TabIndex = 53;
             this.label15.Text = "Rodzaj pęknięcia C/H/P/N";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -737,27 +737,27 @@
             // tb3RodzPek
             // 
             this.tb3RodzPek.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb3RodzPek.Location = new System.Drawing.Point(424, 252);
+            this.tb3RodzPek.Location = new System.Drawing.Point(424, 244);
             this.tb3RodzPek.Name = "tb3RodzPek";
-            this.tb3RodzPek.Size = new System.Drawing.Size(110, 20);
+            this.tb3RodzPek.Size = new System.Drawing.Size(110, 26);
             this.tb3RodzPek.TabIndex = 11;
             this.tb3RodzPek.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.RodzajPeknieciaTexboxes_OnKeyPress);
             // 
             // tb2RodzPek
             // 
             this.tb2RodzPek.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb2RodzPek.Location = new System.Drawing.Point(308, 252);
+            this.tb2RodzPek.Location = new System.Drawing.Point(308, 244);
             this.tb2RodzPek.Name = "tb2RodzPek";
-            this.tb2RodzPek.Size = new System.Drawing.Size(110, 20);
+            this.tb2RodzPek.Size = new System.Drawing.Size(110, 26);
             this.tb2RodzPek.TabIndex = 7;
             this.tb2RodzPek.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.RodzajPeknieciaTexboxes_OnKeyPress);
             // 
             // tb1RodzPek
             // 
             this.tb1RodzPek.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb1RodzPek.Location = new System.Drawing.Point(192, 252);
+            this.tb1RodzPek.Location = new System.Drawing.Point(192, 244);
             this.tb1RodzPek.Name = "tb1RodzPek";
-            this.tb1RodzPek.Size = new System.Drawing.Size(110, 20);
+            this.tb1RodzPek.Size = new System.Drawing.Size(110, 26);
             this.tb1RodzPek.TabIndex = 3;
             this.tb1RodzPek.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.RodzajPeknieciaTexboxes_OnKeyPress);
             // 
@@ -817,7 +817,7 @@
             this.tableLayoutPanel1.Controls.Add(this.label40, 1, 6);
             this.tableLayoutPanel1.Controls.Add(this.label41, 1, 5);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 16);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 22);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 7;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.00001F));
@@ -827,16 +827,16 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 80F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1353, 355);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1353, 349);
             this.tableLayoutPanel1.TabIndex = 66;
             // 
             // label42
             // 
             this.label42.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(153, 12);
+            this.label42.Location = new System.Drawing.Point(153, 4);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(33, 26);
+            this.label42.Size = new System.Drawing.Size(33, 40);
             this.label42.TabIndex = 73;
             this.label42.Text = "[kJ/m²]";
             this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -847,9 +847,9 @@
             this.label20.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label20.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label20.Location = new System.Drawing.Point(3, 301);
+            this.label20.Location = new System.Drawing.Point(3, 296);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(144, 54);
+            this.label20.Size = new System.Drawing.Size(144, 53);
             this.label20.TabIndex = 63;
             this.label20.Text = "Rozpiętość wartości udarności";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -858,20 +858,20 @@
             // 
             this.tbRozpWart.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.tbRozpWart.BackColor = System.Drawing.SystemColors.Window;
-            this.tbRozpWart.Location = new System.Drawing.Point(192, 318);
+            this.tbRozpWart.Location = new System.Drawing.Point(192, 309);
             this.tbRozpWart.Name = "tbRozpWart";
             this.tbRozpWart.ReadOnly = true;
-            this.tbRozpWart.Size = new System.Drawing.Size(110, 20);
+            this.tbRozpWart.Size = new System.Drawing.Size(110, 26);
             this.tbRozpWart.TabIndex = 64;
             // 
             // tbSrGrub
             // 
             this.tbSrGrub.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.tbSrGrub.BackColor = System.Drawing.SystemColors.Window;
-            this.tbSrGrub.Location = new System.Drawing.Point(192, 266);
+            this.tbSrGrub.Location = new System.Drawing.Point(192, 258);
             this.tbSrGrub.Name = "tbSrGrub";
             this.tbSrGrub.ReadOnly = true;
-            this.tbSrGrub.Size = new System.Drawing.Size(110, 20);
+            this.tbSrGrub.Size = new System.Drawing.Size(110, 26);
             this.tbSrGrub.TabIndex = 65;
             // 
             // label16
@@ -880,9 +880,9 @@
             this.label16.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label16.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label16.Location = new System.Drawing.Point(3, 251);
+            this.label16.Location = new System.Drawing.Point(3, 247);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(144, 50);
+            this.label16.Size = new System.Drawing.Size(144, 49);
             this.label16.TabIndex = 57;
             this.label16.Text = "Średnia grubość ścianki";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -891,10 +891,10 @@
             // 
             this.tbEstNieo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.tbEstNieo.BackColor = System.Drawing.SystemColors.Window;
-            this.tbEstNieo.Location = new System.Drawing.Point(192, 201);
+            this.tbEstNieo.Location = new System.Drawing.Point(192, 194);
             this.tbEstNieo.Name = "tbEstNieo";
             this.tbEstNieo.ReadOnly = true;
-            this.tbEstNieo.Size = new System.Drawing.Size(110, 20);
+            this.tbEstNieo.Size = new System.Drawing.Size(110, 26);
             this.tbEstNieo.TabIndex = 62;
             // 
             // label17
@@ -903,7 +903,7 @@
             this.label17.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label17.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label17.Location = new System.Drawing.Point(3, 171);
+            this.label17.Location = new System.Drawing.Point(3, 167);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(144, 80);
             this.label17.TabIndex = 56;
@@ -917,10 +917,10 @@
             this.tbOdchStd.BackColor = System.Drawing.SystemColors.Window;
             this.tbOdchStd.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.tbOdchStd.ForeColor = System.Drawing.Color.Red;
-            this.tbOdchStd.Location = new System.Drawing.Point(192, 136);
+            this.tbOdchStd.Location = new System.Drawing.Point(192, 129);
             this.tbOdchStd.Name = "tbOdchStd";
             this.tbOdchStd.ReadOnly = true;
-            this.tbOdchStd.Size = new System.Drawing.Size(110, 20);
+            this.tbOdchStd.Size = new System.Drawing.Size(110, 26);
             this.tbOdchStd.TabIndex = 61;
             // 
             // tbSrUd
@@ -928,10 +928,10 @@
             this.tbSrUd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.tbSrUd.BackColor = System.Drawing.SystemColors.Window;
             this.tbSrUd.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.tbSrUd.Location = new System.Drawing.Point(192, 86);
+            this.tbSrUd.Location = new System.Drawing.Point(192, 80);
             this.tbSrUd.Name = "tbSrUd";
             this.tbSrUd.ReadOnly = true;
-            this.tbSrUd.Size = new System.Drawing.Size(110, 20);
+            this.tbSrUd.Size = new System.Drawing.Size(110, 26);
             this.tbSrUd.TabIndex = 60;
             // 
             // label18
@@ -940,9 +940,9 @@
             this.label18.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label18.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label18.Location = new System.Drawing.Point(3, 121);
+            this.label18.Location = new System.Drawing.Point(3, 118);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(144, 50);
+            this.label18.Size = new System.Drawing.Size(144, 49);
             this.label18.TabIndex = 55;
             this.label18.Text = "Odchylenie standardowe s";
             this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -953,9 +953,9 @@
             this.label19.AutoSize = true;
             this.label19.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label19.Location = new System.Drawing.Point(13, 87);
+            this.label19.Location = new System.Drawing.Point(26, 69);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(124, 17);
+            this.label19.Size = new System.Drawing.Size(98, 49);
             this.label19.TabIndex = 54;
             this.label19.Text = "Średnia udarność ";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -964,29 +964,29 @@
             // 
             this.tb9Ud.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.tb9Ud.BackColor = System.Drawing.SystemColors.Window;
-            this.tb9Ud.Location = new System.Drawing.Point(1120, 15);
+            this.tb9Ud.Location = new System.Drawing.Point(1120, 11);
             this.tb9Ud.Name = "tb9Ud";
             this.tb9Ud.ReadOnly = true;
-            this.tb9Ud.Size = new System.Drawing.Size(110, 20);
+            this.tb9Ud.Size = new System.Drawing.Size(110, 26);
             this.tb9Ud.TabIndex = 66;
             // 
             // tb10Ud
             // 
             this.tb10Ud.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.tb10Ud.BackColor = System.Drawing.SystemColors.Window;
-            this.tb10Ud.Location = new System.Drawing.Point(1236, 15);
+            this.tb10Ud.Location = new System.Drawing.Point(1236, 11);
             this.tb10Ud.Name = "tb10Ud";
             this.tb10Ud.ReadOnly = true;
-            this.tb10Ud.Size = new System.Drawing.Size(114, 20);
+            this.tb10Ud.Size = new System.Drawing.Size(114, 26);
             this.tb10Ud.TabIndex = 67;
             // 
             // label37
             // 
             this.label37.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(153, 83);
+            this.label37.Location = new System.Drawing.Point(153, 73);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(33, 26);
+            this.label37.Size = new System.Drawing.Size(33, 40);
             this.label37.TabIndex = 68;
             this.label37.Text = "[kJ/m²]";
             this.label37.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -995,9 +995,9 @@
             // 
             this.label38.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(153, 198);
+            this.label38.Location = new System.Drawing.Point(153, 187);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(33, 26);
+            this.label38.Size = new System.Drawing.Size(33, 40);
             this.label38.TabIndex = 69;
             this.label38.Text = "[kJ/m²]";
             this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1006,9 +1006,9 @@
             // 
             this.label39.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(153, 133);
+            this.label39.Location = new System.Drawing.Point(153, 122);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(33, 26);
+            this.label39.Size = new System.Drawing.Size(33, 40);
             this.label39.TabIndex = 70;
             this.label39.Text = "[kJ/m²]";
             this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1017,9 +1017,9 @@
             // 
             this.label40.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(153, 315);
+            this.label40.Location = new System.Drawing.Point(153, 302);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(33, 26);
+            this.label40.Size = new System.Drawing.Size(33, 40);
             this.label40.TabIndex = 71;
             this.label40.Text = "[kJ/m²]";
             this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1028,9 +1028,9 @@
             // 
             this.label41.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(153, 263);
+            this.label41.Location = new System.Drawing.Point(153, 251);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(33, 26);
+            this.label41.Size = new System.Drawing.Size(33, 40);
             this.label41.TabIndex = 72;
             this.label41.Text = "[kJ/m²]";
             this.label41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1038,9 +1038,9 @@
             // rtbNotatki
             // 
             this.rtbNotatki.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rtbNotatki.Location = new System.Drawing.Point(3, 16);
+            this.rtbNotatki.Location = new System.Drawing.Point(3, 22);
             this.rtbNotatki.Name = "rtbNotatki";
-            this.rtbNotatki.Size = new System.Drawing.Size(382, 678);
+            this.rtbNotatki.Size = new System.Drawing.Size(382, 672);
             this.rtbNotatki.TabIndex = 58;
             this.rtbNotatki.Text = resources.GetString("rtbNotatki.Text");
             // 
@@ -1133,7 +1133,7 @@
             this.tableLayoutPanel5Pomiary.Controls.Add(this.tb1RodzPek, 2, 4);
             this.tableLayoutPanel5Pomiary.Controls.Add(this.label35, 1, 2);
             this.tableLayoutPanel5Pomiary.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel5Pomiary.Location = new System.Drawing.Point(3, 16);
+            this.tableLayoutPanel5Pomiary.Location = new System.Drawing.Point(3, 22);
             this.tableLayoutPanel5Pomiary.Name = "tableLayoutPanel5Pomiary";
             this.tableLayoutPanel5Pomiary.RowCount = 5;
             this.tableLayoutPanel5Pomiary.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
@@ -1141,7 +1141,7 @@
             this.tableLayoutPanel5Pomiary.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel5Pomiary.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
             this.tableLayoutPanel5Pomiary.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel5Pomiary.Size = new System.Drawing.Size(1353, 299);
+            this.tableLayoutPanel5Pomiary.Size = new System.Drawing.Size(1353, 293);
             this.tableLayoutPanel5Pomiary.TabIndex = 0;
             // 
             // label25
@@ -1171,72 +1171,72 @@
             // tb9Prml
             // 
             this.tb9Prml.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb9Prml.Location = new System.Drawing.Point(1120, 56);
+            this.tb9Prml.Location = new System.Drawing.Point(1120, 52);
             this.tb9Prml.Name = "tb9Prml";
-            this.tb9Prml.Size = new System.Drawing.Size(110, 20);
+            this.tb9Prml.Size = new System.Drawing.Size(110, 26);
             this.tb9Prml.TabIndex = 32;
             this.tb9Prml.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tylkoliczbyHandler);
             // 
             // tb10Prml
             // 
             this.tb10Prml.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb10Prml.Location = new System.Drawing.Point(1236, 56);
+            this.tb10Prml.Location = new System.Drawing.Point(1236, 52);
             this.tb10Prml.Name = "tb10Prml";
-            this.tb10Prml.Size = new System.Drawing.Size(114, 20);
+            this.tb10Prml.Size = new System.Drawing.Size(114, 26);
             this.tb10Prml.TabIndex = 36;
             this.tb10Prml.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tylkoliczbyHandler);
             // 
             // tb9GruScProf
             // 
             this.tb9GruScProf.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb9GruScProf.Location = new System.Drawing.Point(1120, 129);
+            this.tb9GruScProf.Location = new System.Drawing.Point(1120, 123);
             this.tb9GruScProf.Name = "tb9GruScProf";
-            this.tb9GruScProf.Size = new System.Drawing.Size(110, 20);
+            this.tb9GruScProf.Size = new System.Drawing.Size(110, 26);
             this.tb9GruScProf.TabIndex = 33;
             this.tb9GruScProf.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tylkoliczbyHandler);
             // 
             // tb10GruScProf
             // 
             this.tb10GruScProf.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb10GruScProf.Location = new System.Drawing.Point(1236, 129);
+            this.tb10GruScProf.Location = new System.Drawing.Point(1236, 123);
             this.tb10GruScProf.Name = "tb10GruScProf";
-            this.tb10GruScProf.Size = new System.Drawing.Size(114, 20);
+            this.tb10GruScProf.Size = new System.Drawing.Size(114, 26);
             this.tb10GruScProf.TabIndex = 37;
             this.tb10GruScProf.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tylkoliczbyHandler);
             // 
             // tb9OdlMiWierzKarb
             // 
             this.tb9OdlMiWierzKarb.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb9OdlMiWierzKarb.Location = new System.Drawing.Point(1120, 191);
+            this.tb9OdlMiWierzKarb.Location = new System.Drawing.Point(1120, 184);
             this.tb9OdlMiWierzKarb.Name = "tb9OdlMiWierzKarb";
-            this.tb9OdlMiWierzKarb.Size = new System.Drawing.Size(110, 20);
+            this.tb9OdlMiWierzKarb.Size = new System.Drawing.Size(110, 26);
             this.tb9OdlMiWierzKarb.TabIndex = 34;
             this.tb9OdlMiWierzKarb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tylkoliczbyHandler);
             // 
             // tb10OdlMiWierzKarb
             // 
             this.tb10OdlMiWierzKarb.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb10OdlMiWierzKarb.Location = new System.Drawing.Point(1236, 191);
+            this.tb10OdlMiWierzKarb.Location = new System.Drawing.Point(1236, 184);
             this.tb10OdlMiWierzKarb.Name = "tb10OdlMiWierzKarb";
-            this.tb10OdlMiWierzKarb.Size = new System.Drawing.Size(114, 20);
+            this.tb10OdlMiWierzKarb.Size = new System.Drawing.Size(114, 26);
             this.tb10OdlMiWierzKarb.TabIndex = 38;
             this.tb10OdlMiWierzKarb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tylkoliczbyHandler);
             // 
             // tb9RodzPek
             // 
             this.tb9RodzPek.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb9RodzPek.Location = new System.Drawing.Point(1120, 252);
+            this.tb9RodzPek.Location = new System.Drawing.Point(1120, 244);
             this.tb9RodzPek.Name = "tb9RodzPek";
-            this.tb9RodzPek.Size = new System.Drawing.Size(110, 20);
+            this.tb9RodzPek.Size = new System.Drawing.Size(110, 26);
             this.tb9RodzPek.TabIndex = 35;
             this.tb9RodzPek.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.RodzajPeknieciaTexboxes_OnKeyPress);
             // 
             // tb10RodzPek
             // 
             this.tb10RodzPek.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.tb10RodzPek.Location = new System.Drawing.Point(1236, 252);
+            this.tb10RodzPek.Location = new System.Drawing.Point(1236, 244);
             this.tb10RodzPek.Name = "tb10RodzPek";
-            this.tb10RodzPek.Size = new System.Drawing.Size(114, 20);
+            this.tb10RodzPek.Size = new System.Drawing.Size(114, 26);
             this.tb10RodzPek.TabIndex = 39;
             this.tb10RodzPek.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.RodzajPeknieciaTexboxes_OnKeyPress);
             // 
@@ -1244,9 +1244,9 @@
             // 
             this.label33.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(153, 60);
+            this.label33.Location = new System.Drawing.Point(153, 55);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(33, 13);
+            this.label33.Size = new System.Drawing.Size(33, 20);
             this.label33.TabIndex = 56;
             this.label33.Text = "[J]";
             this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1255,9 +1255,9 @@
             // 
             this.label36.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(153, 249);
+            this.label36.Location = new System.Drawing.Point(153, 222);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(33, 26);
+            this.label36.Size = new System.Drawing.Size(33, 71);
             this.label36.TabIndex = 59;
             this.label36.Text = "C/H/P/N";
             // 
@@ -1265,9 +1265,9 @@
             // 
             this.label34.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(153, 194);
+            this.label34.Location = new System.Drawing.Point(153, 177);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(33, 13);
+            this.label34.Size = new System.Drawing.Size(33, 40);
             this.label34.TabIndex = 57;
             this.label34.Text = "[mm]";
             // 
@@ -1275,9 +1275,9 @@
             // 
             this.label35.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(153, 133);
+            this.label35.Location = new System.Drawing.Point(153, 116);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(33, 13);
+            this.label35.Size = new System.Drawing.Size(33, 40);
             this.label35.TabIndex = 58;
             this.label35.Text = "[mm]";
             // 
@@ -1309,7 +1309,7 @@
             this.tableLayoutPanelNaglowekLeft.RowCount = 2;
             this.tableLayoutPanelNaglowekLeft.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanelNaglowekLeft.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanelNaglowekLeft.Size = new System.Drawing.Size(805, 169);
+            this.tableLayoutPanelNaglowekLeft.Size = new System.Drawing.Size(805, 163);
             this.tableLayoutPanelNaglowekLeft.TabIndex = 58;
             // 
             // label30
@@ -1318,9 +1318,9 @@
             this.label30.BackColor = System.Drawing.SystemColors.Control;
             this.label30.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label30.Location = new System.Drawing.Point(539, 84);
+            this.label30.Location = new System.Drawing.Point(539, 81);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(128, 85);
+            this.label30.Size = new System.Drawing.Size(128, 82);
             this.label30.TabIndex = 70;
             this.label30.Text = "Nr narzędzia";
             this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1331,9 +1331,9 @@
             this.label29.BackColor = System.Drawing.SystemColors.Control;
             this.label29.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label29.Location = new System.Drawing.Point(271, 84);
+            this.label29.Location = new System.Drawing.Point(271, 81);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(128, 85);
+            this.label29.Size = new System.Drawing.Size(128, 82);
             this.label29.TabIndex = 69;
             this.label29.Text = "Linia";
             this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1346,7 +1346,7 @@
             this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label24.Location = new System.Drawing.Point(539, 0);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(128, 84);
+            this.label24.Size = new System.Drawing.Size(128, 81);
             this.label24.TabIndex = 64;
             this.label24.Text = "Cechowanie";
             this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1359,7 +1359,7 @@
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label23.Location = new System.Drawing.Point(271, 0);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(128, 84);
+            this.label23.Size = new System.Drawing.Size(128, 81);
             this.label23.TabIndex = 63;
             this.label23.Text = "Klasa profila";
             this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1370,9 +1370,9 @@
             this.label22.BackColor = System.Drawing.SystemColors.Control;
             this.label22.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label22.Location = new System.Drawing.Point(3, 84);
+            this.label22.Location = new System.Drawing.Point(3, 81);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(128, 85);
+            this.label22.Size = new System.Drawing.Size(128, 82);
             this.label22.TabIndex = 22;
             this.label22.Text = "Profil";
             this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1385,7 +1385,7 @@
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label21.Location = new System.Drawing.Point(3, 0);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(128, 84);
+            this.label21.Size = new System.Drawing.Size(128, 81);
             this.label21.TabIndex = 21;
             this.label21.Text = "Data dodania  próbki";
             this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1393,10 +1393,10 @@
             // rtbProfil
             // 
             this.rtbProfil.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rtbProfil.Location = new System.Drawing.Point(137, 87);
+            this.rtbProfil.Location = new System.Drawing.Point(137, 84);
             this.rtbProfil.Multiline = true;
             this.rtbProfil.Name = "rtbProfil";
-            this.rtbProfil.Size = new System.Drawing.Size(128, 79);
+            this.rtbProfil.Size = new System.Drawing.Size(128, 76);
             this.rtbProfil.TabIndex = 1;
             // 
             // rtbCechowanie
@@ -1405,7 +1405,7 @@
             this.rtbCechowanie.Location = new System.Drawing.Point(673, 3);
             this.rtbCechowanie.Multiline = true;
             this.rtbCechowanie.Name = "rtbCechowanie";
-            this.rtbCechowanie.Size = new System.Drawing.Size(129, 78);
+            this.rtbCechowanie.Size = new System.Drawing.Size(129, 75);
             this.rtbCechowanie.TabIndex = 4;
             // 
             // dtpDataDodaniaProbki
@@ -1416,25 +1416,25 @@
             this.dtpDataDodaniaProbki.MaxDate = new System.DateTime(2100, 12, 31, 0, 0, 0, 0);
             this.dtpDataDodaniaProbki.MinDate = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
             this.dtpDataDodaniaProbki.Name = "dtpDataDodaniaProbki";
-            this.dtpDataDodaniaProbki.Size = new System.Drawing.Size(128, 20);
+            this.dtpDataDodaniaProbki.Size = new System.Drawing.Size(128, 26);
             this.dtpDataDodaniaProbki.TabIndex = 0;
             // 
             // rtbLinia
             // 
             this.rtbLinia.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rtbLinia.Location = new System.Drawing.Point(405, 87);
+            this.rtbLinia.Location = new System.Drawing.Point(405, 84);
             this.rtbLinia.Multiline = true;
             this.rtbLinia.Name = "rtbLinia";
-            this.rtbLinia.Size = new System.Drawing.Size(128, 79);
+            this.rtbLinia.Size = new System.Drawing.Size(128, 76);
             this.rtbLinia.TabIndex = 3;
             // 
             // rtbNrNarzędzia
             // 
             this.rtbNrNarzędzia.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rtbNrNarzędzia.Location = new System.Drawing.Point(673, 87);
+            this.rtbNrNarzędzia.Location = new System.Drawing.Point(673, 84);
             this.rtbNrNarzędzia.Multiline = true;
             this.rtbNrNarzędzia.Name = "rtbNrNarzędzia";
-            this.rtbNrNarzędzia.Size = new System.Drawing.Size(129, 79);
+            this.rtbNrNarzędzia.Size = new System.Drawing.Size(129, 76);
             this.rtbNrNarzędzia.TabIndex = 5;
             // 
             // rtbKlasaProfila
@@ -1443,7 +1443,7 @@
             this.rtbKlasaProfila.Location = new System.Drawing.Point(405, 3);
             this.rtbKlasaProfila.Multiline = true;
             this.rtbKlasaProfila.Name = "rtbKlasaProfila";
-            this.rtbKlasaProfila.Size = new System.Drawing.Size(128, 78);
+            this.rtbKlasaProfila.Size = new System.Drawing.Size(128, 75);
             this.rtbKlasaProfila.TabIndex = 2;
             // 
             // label31
@@ -1455,7 +1455,7 @@
             this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label31.Location = new System.Drawing.Point(3, 0);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(530, 56);
+            this.label31.Size = new System.Drawing.Size(530, 54);
             this.label31.TabIndex = 71;
             this.label31.Text = "Materiał";
             this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1466,9 +1466,9 @@
             this.label28.BackColor = System.Drawing.SystemColors.Control;
             this.label28.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label28.Location = new System.Drawing.Point(359, 56);
+            this.label28.Location = new System.Drawing.Point(359, 54);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(174, 56);
+            this.label28.Size = new System.Drawing.Size(174, 54);
             this.label28.TabIndex = 68;
             this.label28.Text = "Stabilizator";
             this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1479,9 +1479,9 @@
             this.label27.BackColor = System.Drawing.SystemColors.Control;
             this.label27.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label27.Location = new System.Drawing.Point(181, 56);
+            this.label27.Location = new System.Drawing.Point(181, 54);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(172, 56);
+            this.label27.Size = new System.Drawing.Size(172, 54);
             this.label27.TabIndex = 67;
             this.label27.Text = "Modyfikator";
             this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1492,9 +1492,9 @@
             this.label26.BackColor = System.Drawing.SystemColors.Control;
             this.label26.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label26.Location = new System.Drawing.Point(3, 56);
+            this.label26.Location = new System.Drawing.Point(3, 54);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(172, 56);
+            this.label26.Size = new System.Drawing.Size(172, 54);
             this.label26.TabIndex = 66;
             this.label26.Text = "PVC";
             this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1502,28 +1502,28 @@
             // rtbMateriałStabilizator
             // 
             this.rtbMateriałStabilizator.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rtbMateriałStabilizator.Location = new System.Drawing.Point(359, 115);
+            this.rtbMateriałStabilizator.Location = new System.Drawing.Point(359, 111);
             this.rtbMateriałStabilizator.Multiline = true;
             this.rtbMateriałStabilizator.Name = "rtbMateriałStabilizator";
-            this.rtbMateriałStabilizator.Size = new System.Drawing.Size(174, 51);
+            this.rtbMateriałStabilizator.Size = new System.Drawing.Size(174, 49);
             this.rtbMateriałStabilizator.TabIndex = 8;
             // 
             // rtbMaterialModyfikatoraa
             // 
             this.rtbMaterialModyfikatoraa.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rtbMaterialModyfikatoraa.Location = new System.Drawing.Point(181, 115);
+            this.rtbMaterialModyfikatoraa.Location = new System.Drawing.Point(181, 111);
             this.rtbMaterialModyfikatoraa.Multiline = true;
             this.rtbMaterialModyfikatoraa.Name = "rtbMaterialModyfikatoraa";
-            this.rtbMaterialModyfikatoraa.Size = new System.Drawing.Size(172, 51);
+            this.rtbMaterialModyfikatoraa.Size = new System.Drawing.Size(172, 49);
             this.rtbMaterialModyfikatoraa.TabIndex = 7;
             // 
             // rtbMateriałPVC
             // 
             this.rtbMateriałPVC.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rtbMateriałPVC.Location = new System.Drawing.Point(3, 115);
+            this.rtbMateriałPVC.Location = new System.Drawing.Point(3, 111);
             this.rtbMateriałPVC.Multiline = true;
             this.rtbMateriałPVC.Name = "rtbMateriałPVC";
-            this.rtbMateriałPVC.Size = new System.Drawing.Size(172, 51);
+            this.rtbMateriałPVC.Size = new System.Drawing.Size(172, 49);
             this.rtbMateriałPVC.TabIndex = 6;
             // 
             // tableLayoutPanelMenu
@@ -1628,11 +1628,11 @@
             this.tableLayoutPanelNaglowek.Controls.Add(this.tableLayoutPanelNaglowekRight, 1, 0);
             this.tableLayoutPanelNaglowek.Controls.Add(this.tableLayoutPanelNaglowekLeft, 0, 0);
             this.tableLayoutPanelNaglowek.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanelNaglowek.Location = new System.Drawing.Point(3, 16);
+            this.tableLayoutPanelNaglowek.Location = new System.Drawing.Point(3, 22);
             this.tableLayoutPanelNaglowek.Name = "tableLayoutPanelNaglowek";
             this.tableLayoutPanelNaglowek.RowCount = 1;
             this.tableLayoutPanelNaglowek.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanelNaglowek.Size = new System.Drawing.Size(1353, 175);
+            this.tableLayoutPanelNaglowek.Size = new System.Drawing.Size(1353, 169);
             this.tableLayoutPanelNaglowek.TabIndex = 59;
             // 
             // tableLayoutPanelNaglowekRight
@@ -1656,7 +1656,7 @@
             this.tableLayoutPanelNaglowekRight.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanelNaglowekRight.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanelNaglowekRight.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanelNaglowekRight.Size = new System.Drawing.Size(536, 169);
+            this.tableLayoutPanelNaglowekRight.Size = new System.Drawing.Size(536, 163);
             this.tableLayoutPanelNaglowekRight.TabIndex = 74;
             // 
             // Form1
