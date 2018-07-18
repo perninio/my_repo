@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="1000">
     <Grid x:Name="MainGrid">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="4*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <Grid x:Name="LeftGrid" Grid.Column="0">
@@ -19,13 +19,13 @@
             </Grid.RowDefinitions>
             <Grid x:Name="NaglowekGrid">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition></ColumnDefinition>
-                    <ColumnDefinition></ColumnDefinition>
-                    <ColumnDefinition></ColumnDefinition>
-                    <ColumnDefinition></ColumnDefinition>
-                    <ColumnDefinition></ColumnDefinition>
-                    <ColumnDefinition></ColumnDefinition>
-                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="2*"/>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
                     <RowDefinition/>
@@ -79,7 +79,7 @@
                     <TextBox Grid.Column="0" Grid.Row="2"/>
                     <TextBox Grid.Column="1" Grid.Row="2"/>
                     <TextBox Grid.Column="2" Grid.Row="2"/>
-                 
+
                 </Grid>
 
             </Grid>
@@ -88,24 +88,25 @@
                 <!--Grid left przyciski-->
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
-                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="60*"></ColumnDefinition>
-                    <ColumnDefinition Width="30"></ColumnDefinition>
-                    <ColumnDefinition Width="60*"></ColumnDefinition>
-                    <ColumnDefinition Width="60*"></ColumnDefinition>
-                    <ColumnDefinition Width="60*"></ColumnDefinition>
-                    <ColumnDefinition Width="60*"></ColumnDefinition>
-                    <ColumnDefinition Width="60*"></ColumnDefinition>
-                    <ColumnDefinition Width="60*"></ColumnDefinition>
-                    <ColumnDefinition Width="60*"></ColumnDefinition>
-                    <ColumnDefinition Width="60*"></ColumnDefinition>
-                    <ColumnDefinition Width="60*"></ColumnDefinition>
-                    <ColumnDefinition Width="60*"></ColumnDefinition>
+                    <ColumnDefinition Width="200"></ColumnDefinition>
+                    <ColumnDefinition Width="50"></ColumnDefinition>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
                 <TextBlock Grid.Row="0" Grid.Column="0" Text="Wyniki pomiarów" Grid.ColumnSpan="2" HorizontalAlignment="Center"
                                VerticalAlignment="Center"/>
@@ -128,12 +129,20 @@
                 <TextBlock Grid.Row="0" Grid.Column="10" Text="Próbka9" HorizontalAlignment="Center"
                                VerticalAlignment="Center"/>
                 <TextBlock Grid.Row="0" Grid.Column="11" Text="Próbka10" HorizontalAlignment="Center"
-                               VerticalAlignment="Center" />
-                <TextBlock Grid.Row="1" Grid.Column="0" Text="Praca młota zużyta na zniszczenie próbki" HorizontalAlignment="Center"
-                               VerticalAlignment="Center"/>
+                               VerticalAlignment="Center"
+                           />
+                <TextBlock Grid.Row="1" Grid.Column="0" 
+                           Text="Praca młota zużyta na zniszczenie próbki" 
+                           TextWrapping="Wrap"
+                           HorizontalAlignment="Center"
+                           TextAlignment="Center"
+                           VerticalAlignment="Center"/>
                 <TextBlock Grid.Row="2" Grid.Column="0" Text="Grubość ścianki profila" HorizontalAlignment="Center"
                                VerticalAlignment="Center"/>
-                <TextBlock Grid.Row="3" Grid.Column="0" Text="Odległość międzyy wierzchołkami karbów" HorizontalAlignment="Center"
+                <TextBlock Grid.Row="3" Grid.Column="0" 
+                           TextWrapping="Wrap"
+                           TextAlignment="Center"
+                           Text="Odległość międzyy wierzchołkami karbów" HorizontalAlignment="Center"
                                VerticalAlignment="Center"/>
                 <TextBlock Grid.Row="4" Grid.Column="0" Text="Rodzaj pęknięcia" HorizontalAlignment="Center"
                                VerticalAlignment="Center"/>
@@ -189,6 +198,20 @@
                 <TextBox x:Name="tbProbka8RodzajPekniecia" Grid.Row="4" Grid.Column="9" />
                 <TextBox x:Name="tbProbka9RodzajPekniecia" Grid.Row="4" Grid.Column="10" />
                 <TextBox x:Name="tbProbka10RodzajPekniecia" Grid.Row="4" Grid.Column="11" />
+
+                <!-- SREDNIA UDARNOSC-->
+                <TextBlock Grid.Row="5" Grid.Column="0" Text="Średnia udarność" />
+                <TextBlock Grid.Row="0" Grid.Column="1" Text="[kJ/m^2]" />
+                <TextBox x:Name="tbProbka1UdarnoscProbki" Grid.Row="5" Grid.Column="2" />
+                <TextBox x:Name="tbProbka2UdarnoscProbki" Grid.Row="5" Grid.Column="3" />
+                <TextBox x:Name="tbProbka3UdarnoscProbki" Grid.Row="5" Grid.Column="4" />
+                <TextBox x:Name="tbProbka4UdarnoscProbki" Grid.Row="5" Grid.Column="5" />
+                <TextBox x:Name="tbProbka5UdarnoscProbki" Grid.Row="5" Grid.Column="6" />
+                <TextBox x:Name="tbProbka6UdarnoscProbki" Grid.Row="5" Grid.Column="7" />
+                <TextBox x:Name="tbProbka7UdarnoscProbki" Grid.Row="5" Grid.Column="8" />
+                <TextBox x:Name="tbProbka8UdarnoscProbki" Grid.Row="5" Grid.Column="9" />
+                <TextBox x:Name="tbProbka9UdarnoscProbki" Grid.Row="5" Grid.Column="10" />
+                <TextBox x:Name="tbProbka10UdarnoscProbki" Grid.Row="5" Grid.Column="11" />
             </Grid>
 
             <!--Grid wyniki-->
@@ -216,24 +239,15 @@
                     <RowDefinition/>
                     <RowDefinition/>
                 </Grid.RowDefinitions>
-                <TextBlock Grid.Row="0" Grid.Column="0" Text="Średnia udarność" />
+                
                 <TextBlock Grid.Row="2" Grid.Column="0" Text="Odchylenie standardowe s" />
                 <TextBlock Grid.Row="3" Grid.Column="0" Text="Estymator nieobciążony odchylenia standardowego " />
                 <TextBlock Grid.Row="4" Grid.Column="0" Text="Średnia grubość ścianki" />
                 <TextBlock Grid.Row="5" Grid.Column="0" Text="Rozpiętość wartości udarności" />
+                
+               
 
-                <TextBox x:Name="tbProbka1UdarnoscProbki" Grid.Row="0" Grid.Column="2" />
-                <TextBox x:Name="tbProbka2UdarnoscProbki" Grid.Row="0" Grid.Column="3" />
-                <TextBox x:Name="tbProbka3UdarnoscProbki" Grid.Row="0" Grid.Column="4" />
-                <TextBox x:Name="tbProbka4UdarnoscProbki" Grid.Row="0" Grid.Column="5" />
-                <TextBox x:Name="tbProbka5UdarnoscProbki" Grid.Row="0" Grid.Column="6" />
-                <TextBox x:Name="tbProbka6UdarnoscProbki" Grid.Row="0" Grid.Column="7" />
-                <TextBox x:Name="tbProbka7UdarnoscProbki" Grid.Row="0" Grid.Column="8" />
-                <TextBox x:Name="tbProbka8UdarnoscProbki" Grid.Row="0" Grid.Column="9" />
-                <TextBox x:Name="tbProbka9UdarnoscProbki" Grid.Row="0" Grid.Column="10" />
-                <TextBox x:Name="tbProbka10UdarnoscProbki" Grid.Row="0" Grid.Column="11" />
-
-                <TextBlock Grid.Row="0" Grid.Column="1" Text="[kJ/m^2]" />
+              
                 <TextBlock Grid.Row="2" Grid.Column="1" Text="[kJ/m^2]" />
                 <TextBlock Grid.Row="3" Grid.Column="1" Text="[kJ/m^2]" />
                 <TextBlock Grid.Row="4" Grid.Column="1" Text="[kJ/m^2]" />
@@ -252,14 +266,12 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
-                <RowDefinition Height="3*"/>
+                <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <Button x:Name="WyczyscDane" Grid.Column="0" Grid.Row="0">Wyczyść Dane
             </Button>
-            <Button x:Name="Wyczyść Formularz" Grid.Column="0" Grid.Row="1">Wyczyść Formularz
-            </Button>
-            <Button x:Name="Licz" Grid.Column="0" Grid.Row="2">Licz
-            </Button>
+            <Button x:Name="Wyczyść Formularz" Grid.Column="0" Grid.Row="1" Content="Wyczyść Formularz"/>
+            <Button x:Name="Licz" Grid.Column="0" Grid.Row="2" Content="Licz"/>
             <Button x:Name="UstawOdlKarb31" Grid.Column="0" Grid.Row="3">Ustaw Odległość karbów na 3,1
             </Button>
 
