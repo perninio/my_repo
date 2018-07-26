@@ -2,23 +2,64 @@
 using Xunit;
 using WindowsFormsApp1;
 using AluCharpy;
+using System.Data.SqlClient;
+using System.Data.Entity;
+using System.Linq;
+using Charpy.Model;
 
 namespace Tests
 {
-    public class UdarnoscTests
+    /// <summary>
+    /// Testy polaczen BD z Aplikacja
+    /// </summary>
+    public class TestyBD
     {
+        [Fact]
+        public CharpyDbContext settingconnection()
+        {
+            var b = new SqlConnectionStringBuilder();
+            b.DataSource = @"(local)\SQLEXPRESS";
+            b.ApplicationIntent = System.Data.SqlClient.ApplicationIntent.ReadWrite;
+            b.ApplicationName = "Charpy";
+            b.InitialCatalog = "BDPrzemek";
+            b.IntegratedSecurity = true;
+            var ctx = new CharpyDbContext(b.ToString());
+            Assert.NotNull(ctx);
+            return ctx;
+        }
 
-        //CharpyCalc calc = new CharpyCalc();
-        //[Fact(DisplayName = "Liczeni udarności na podstawie excela")]
-        //public void LiczUdarnoscTestPozytywny()
-        //{
-        //    Assert.Equal(166.666666666667f, calc.Licz_udarnosc(1f,2f,3f));
+        [Fact]
+        public void slownikRodzPeknieciaPolaczenie()
+        {
+            var ctx = settingconnection();
+            var slownik = ctx.Slownik.FirstOrDefault(s => s.RodzajPekniecia == "C");
+            Assert.NotNull(slownik);
+        }
+        [Fact]
+        public void probkaPolaczenie()
+        {
+            var b = new SqlConnectionStringBuilder();
+            b.DataSource = @"(local)\SQLEXPRESS";
+            b.ApplicationIntent = System.Data.SqlClient.ApplicationIntent.ReadWrite;
+            b.ApplicationName = "Charpy";
+            b.InitialCatalog = "BDPrzemek";
+            b.IntegratedSecurity = true;
+            var ctx = new CharpyDbContext(b.ToString());
+            Assert.NotNull(ctx);
+            var probka = ctx.Probki.FirstOrDefault(x=>x.IDProbki==1);
+            Assert.NotNull(probka);
+        }
+        [Fact]
+        public void addingNewProbka()
+        {
+            var ctx = settingconnection();
+            Probka pr2 =new Probka();
+            pr2.OdlegloscMiedzyKarbami = 3123.3121M;
+            ProbkaEF pom = pr2;
 
-        //}
-        //[Fact(DisplayName="Dzielenie przez 0")]
-        //public void LiczUdarnoscTestNegatywny()
-        //{
-        //    Assert.Equal(0, calc.Licz_udarnosc(1,2,0));
-        //}
+            ctx.Probki.Add(pr2);
+
+            ctx.SaveChanges();
+        }
     }
 }

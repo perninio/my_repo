@@ -6,12 +6,12 @@ namespace Charpy.Model
 {
     public class WynikBadania
     {
-        const double WspolczynikEstymatoraNieobciazonegoOdchylenia = 0.97266;
-        public double SredniaUdarnosc { get; set; }
-        public double Odchylenie { get; set; }
-        public double EstymatorNieobciazonyOdchylenia { get; set; }
-        public double SredniaGruboscScianki { get; set; }
-        public double RozpietoscWartosci { get; set; }
+        const decimal WspolczynikEstymatoraNieobciazonegoOdchylenia = 0.97266M;
+        public decimal SredniaUdarnosc { get; set; }
+        public decimal Odchylenie { get; set; }
+        public decimal EstymatorNieobciazonyOdchylenia { get; set; }
+        public decimal SredniaGruboscScianki { get; set; }
+        public decimal RozpietoscWartosci { get; set; }
 
         public bool ObliczWynikBadania(IEnumerable<Probka> probki)
         {
@@ -33,7 +33,8 @@ namespace Charpy.Model
 
         private void ObliczOdchylenie(IEnumerable<Probka> probki)
         {
-            Odchylenie = Math.Sqrt(probki.Sum(x => Math.Pow(x.Udarnosc - SredniaUdarnosc, 2)) / (probki.Count() - 1));
+
+            Odchylenie = (decimal)Math.Sqrt(probki.Sum(x =>Math.Pow((double)x.Udarnosc - (double)SredniaUdarnosc, 2)) / (probki.Count() - 1));
         }
 
         private void EstymatorNieobciążonyOdchyleniaStandardowego()
