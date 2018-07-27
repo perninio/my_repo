@@ -54,12 +54,13 @@ namespace Tests
         {
             var ctx = settingconnection();
             Probka pr2 =new Probka();
-            pr2.OdlegloscMiedzyKarbami = 3123.3121M;
-            ProbkaEF pom = pr2;
-
-            ctx.Probki.Add(pr2);
-
+            pr2.OdlegloscMiedzyKarbami = 323.193121M;
+            pr2.GruboscSciankiProfila = 23.29311M;
+            pr2.PracaMlotaZuzyta = 3123.221M;
+            ctx.Probki.Add(pr2);        
             ctx.SaveChanges();
         }
     }
+
+
 }

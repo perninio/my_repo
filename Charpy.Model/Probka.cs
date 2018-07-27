@@ -3,9 +3,12 @@ using System.ComponentModel.DataAnnotations.Schema;
 using AluCharpy;
 namespace Charpy.Model
 {
+
     public class Probka : ProbkaEF
     {
+      
         private decimal _pracaMlotaZuzyta;
+     
         private string _pracaMlotaZuzytaStr;
         [NotMapped]
         public string PracaMlotaZuzytaStr
@@ -20,6 +23,7 @@ namespace Charpy.Model
         }
 
         private decimal _gruboscSciankiProfila;
+     
         private string _gruboscSciankiProfilaStr;
         [NotMapped]
         public string GruboscSciankiProfilaStr
@@ -32,8 +36,9 @@ namespace Charpy.Model
                 GruboscSciankiProfila = _gruboscSciankiProfila;
             }
         }
-
+     
         private decimal _odlegloscMiedzyKarbami;
+     
         private string _odlegloscMiedzyKarbamiStr;
         [NotMapped]
         public string OdlegloscMiedzyKarbamiStr
@@ -54,6 +59,7 @@ namespace Charpy.Model
         public decimal Udarnosc { get; set; }
 
         //konstruktor
+
         public Probka(int nrProbki, string pracaMlotaZuzyta, string gruboscSciankiProfilaText, string odlegloscMiedzyKarbami, string rodzajPekniecia)
         {
             NrProbki = nrProbki;
@@ -62,6 +68,7 @@ namespace Charpy.Model
             OdlegloscMiedzyKarbamiStr = odlegloscMiedzyKarbami;
             RodzajPeknieciaStr = rodzajPekniecia;
         }
+
         public Probka(){}
 
         public bool LiczUdarnosc()
