@@ -11,17 +11,19 @@ using System.Text.RegularExpressions;
 using System.Windows.Forms;
 using AluCharpy;
 using Charpy.Model;
-
+using System.Data.SqlClient;
 
 namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
+        public CharpyDbContext ctx { get; set; }
         public List<Probka> Probki;
         public Form1()
         {
             InitializeComponent();
             Probki = new List<Probka>();
+            ctx = new CharpyDbContext(ConnectionString());
         }
 
         private void Licz_Click(object sender, EventArgs e)
@@ -213,6 +215,17 @@ namespace WindowsFormsApp1
 
         private void btnZapisz_Click(object sender, EventArgs e)
         {
+            if(ctx !=null)
+            {
+                foreach(Probka value in Probki)
+                {
+                    if (value.GruboscSciankiProfila!=0 && value.OdlegloscMiedzyKarbami!=0 && value.PracaMlotaZuzyta !=0)
+                    {                     
+                     ctx.Probki.Add(value);                       
+                    }
+                }
+                ctx.SaveChanges();
+            }
             MessageBox.Show("Zapisano pomyślnie");
         }
 
@@ -243,6 +256,16 @@ namespace WindowsFormsApp1
             {
                 e.Handled = true;
             }
+        }
+        public string ConnectionString()
+        {
+            var b = new SqlConnectionStringBuilder();
+            b.DataSource = @"(local)\SQLEXPRESS";
+            b.ApplicationIntent = System.Data.SqlClient.ApplicationIntent.ReadWrite;
+            b.ApplicationName = "Charpy";
+            b.InitialCatalog = "BDPrzemek";
+            b.IntegratedSecurity = true;
+            return b.ToString();
         }
     }
 }

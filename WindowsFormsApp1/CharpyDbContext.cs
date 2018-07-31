@@ -5,15 +5,10 @@ using System.Threading.Tasks;
 using System.Data.Entity;
 using Charpy.Model;
 using System.Data.Entity.ModelConfiguration.Conventions;
+using System.Data.SqlClient;
 
 namespace AluCharpy
 {
-
-
-
-
-
-
     public class CharpyDbContext : DbContext
     {
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
@@ -28,11 +23,9 @@ namespace AluCharpy
         public CharpyDbContext(string connectionString) : base(connectionString)
         {
             Database.SetInitializer<CharpyDbContext>(null);
-
         }
         public DbSet<Probka> Probki { get; set; }
         //public DbSet<WynikBadania> WynikiBadania { get; set; }
         public DbSet<SlownikRodzajPekniecia> Slownik { get; set; }
-
     }
 }

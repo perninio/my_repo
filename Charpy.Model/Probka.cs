@@ -5,8 +5,7 @@ namespace Charpy.Model
 {
 
     public class Probka : ProbkaEF
-    {
-      
+    {   
         private decimal _pracaMlotaZuzyta;
      
         private string _pracaMlotaZuzytaStr;

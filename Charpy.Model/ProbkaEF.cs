@@ -22,5 +22,6 @@ namespace AluCharpy
         [Column("IDRodzajPekniecia")]
         public int IDRodzajPekniecia { get; set; }
         public ProbkaEF() { }
+
     }
 }
