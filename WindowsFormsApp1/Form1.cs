@@ -221,7 +221,8 @@ namespace WindowsFormsApp1
                 {
                     if (value.GruboscSciankiProfila!=0 && value.OdlegloscMiedzyKarbami!=0 && value.PracaMlotaZuzyta !=0)
                     {                     
-                     ctx.Probki.Add(value);                       
+                     ctx.Probki.Add(value); 
+                     
                     }
                 }
                 ctx.SaveChanges();
@@ -252,7 +253,7 @@ namespace WindowsFormsApp1
         private void RodzajPeknieciaTexboxes_OnKeyPress(object sender, KeyPressEventArgs e)
         {
             var ch = e.KeyChar.ToString().ToUpper();
-            if (!RodzajPeknieciaSlownik.RodzajePekniec.Contains(ch))
+            if (!RodzajPeknieciaSlownik.RodzajePekniec.Contains(ch) && e.KeyChar!=8)
             {
                 e.Handled = true;
             }

@@ -1,17 +1,31 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 
 namespace Charpy.Model
 {
+    [Table("Badanie")]
     public class WynikBadania
     {
+        [Key, Column("IDBadania")]
+        public int IDBadania { get; set; }
         const decimal WspolczynikEstymatoraNieobciazonegoOdchylenia = 0.97266M;
+        [Column("Srednia")]
         public decimal SredniaUdarnosc { get; set; }
+        [Column("Odchylenie")]
         public decimal Odchylenie { get; set; }
+        [Column("EstymatorSigma")]
         public decimal EstymatorNieobciazonyOdchylenia { get; set; }
+        [Column("SrdeniaGruboscScianki")]
         public decimal SredniaGruboscScianki { get; set; }
+        [Column("RozpietoscUdarnosci")]
         public decimal RozpietoscWartosci { get; set; }
+
+
+        public ICollection<Probka> Probki{ get; set; }
+
 
         public bool ObliczWynikBadania(IEnumerable<Probka> probki)
         {

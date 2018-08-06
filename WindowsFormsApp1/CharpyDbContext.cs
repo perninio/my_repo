@@ -15,6 +15,11 @@ namespace AluCharpy
         {
             modelBuilder.Conventions.Remove<DecimalPropertyConvention>();
             modelBuilder.Conventions.Add(new DecimalPropertyConvention(12,6));
+            modelBuilder.Entity<Probka>()
+          .HasRequired(c => c.WynikBadania)
+          .WithMany(e=> e.Probki)
+          .HasForeignKey(e=> e.IDBadania);
+          //.HasForeignKey(s => new { s.CarState, s.CarLicensePlate });
             //modelBuilder.Entity<ProbkaEF>().Property(x => x.PracaMlotaZuzyta).HasPrecision(12, 6);
             //modelBuilder.Entity<ProbkaEF>().Property(x => x.GruboscSciankiProfila).HasPrecision(12, 6);
             //modelBuilder.Entity<ProbkaEF>().Property(x => x.OdlegloscMiedzyKarbami).HasPrecision(12, 6);
@@ -25,7 +30,7 @@ namespace AluCharpy
             Database.SetInitializer<CharpyDbContext>(null);
         }
         public DbSet<Probka> Probki { get; set; }
-        //public DbSet<WynikBadania> WynikiBadania { get; set; }
+        public DbSet<WynikBadania> WynikiBadania { get; set; }
         public DbSet<SlownikRodzajPekniecia> Slownik { get; set; }
     }
 }

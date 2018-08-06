@@ -54,9 +54,12 @@ namespace Charpy.Model
         public string RodzajPeknieciaStr { get; set; }
         [NotMapped]
         public int NrProbki { get; set; }
-        [NotMapped]
+        [Column("Udarnosc")]
         public decimal Udarnosc { get; set; }
 
+
+        public WynikBadania WynikBadania { get; set; }
+        public int IDBadania { get; set; }
         //konstruktor
 
         public Probka(int nrProbki, string pracaMlotaZuzyta, string gruboscSciankiProfilaText, string odlegloscMiedzyKarbami, string rodzajPekniecia)
